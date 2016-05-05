@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues":         "https://github.com/coreylafferty/starterkit-twig-drupal-gesso/issues",
-        "source":         "https://github.com/coreylafferty/starterkit-twig-drupal-gesso"
+        "issues":         "https://github.com/forumone/starterkit-twig-drupal-gesso/issues",
+        "source":         "https://github.com/forumone/starterkit-twig-drupal-gesso"
     },
     "require": {
         "pattern-lab/core": "0.*",
