@@ -2,7 +2,7 @@
   "siteName": "Site Name",
   "htmlClass": "",
   "bodyClass": "",
-  "adminView": false,
+  "showAdminView": false,
   "pageTitle": "Page Title",
   "url": "#",
   "title": "Title",
