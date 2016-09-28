@@ -1,1 +1,1 @@
-<img src="{{ img.landscape.src }}" alt="{{ img.landscape.alt }}">
+<img {% if customClasses %}class="{{ customClasses }}" {% endif %}src="{{ img.landscape.src }}" alt="{{ img.landscape.alt }}" height="{{ img.landscape.height }}" width="{{ img.landscape.width }}">
