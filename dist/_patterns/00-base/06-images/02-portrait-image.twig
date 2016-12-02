@@ -1,1 +1,1 @@
-<img src="{{ img.portrait.src }}" alt="{{ img.portrait.alt }}" height="400" width="300">
+<img {% if customClasses %}class="{{ customClasses }}" {% endif %}src="{{ img.portrait.src }}" alt="{{ img.portrait.alt }}" height="{{ img.portrait.height }}" width="{{ img.portrait.width }}">

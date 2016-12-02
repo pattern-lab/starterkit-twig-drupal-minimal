@@ -1,12 +1,23 @@
 {
-  "siteName": "Site Name",
-  "htmlClass": "",
   "bodyClass": "",
-  "showAdminView": false,
+  "htmlClass": "",
   "pageTitle": "Page Title",
-  "url": "#",
-  "title": "Title",
+  "section": "Section",
+  "siteName": "Site Name",
+
+  "font": {
+    "headings": "'Helvetica Neue', Helvetica, Arial, sans-serif;",
+    "monospace": "Consolas, 'Lucida Console', 'Liberation Mono', 'Courier New', monospace, sans-serif;",
+    "primary": "'Helvetica Neue', Helvetica, Arial, sans-serif;"
+  },
+
+  "adminView": false,
+
+  "body": "<p>This is the body content, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. There is no limit to how long this content can be.</p>",
   "summary": "<p>This is the summary, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. It should be 600 characters or less.</p>",
+  "title": "Title",
+  "url": "#",
+
   "file": {
     "icon": "../../drupal/images/application-pdf.png",
     "mime": "application/pdf",
@@ -16,37 +27,46 @@
   "img": {
     "icon": {
       "src": "http://fpoimg.com/48x48?text=Icon",
-      "alt": "Icon"
+      "alt": "Icon",
+      "height": "48",
+      "width": "48"
     },
     "thumbnail": {
       "src": "http://fpoimg.com/140x105?text=Thumbnail 4:3",
-      "alt": "Thumbnail 4:3"
+      "alt": "Thumbnail 4:3",
+      "height": "105",
+      "width": "140"
     },
     "portrait": {
       "src": "http://fpoimg.com/300x400?text=Portrait 3:4",
-      "alt": "Portrait 3:4"
+      "alt": "Portrait 3:4",
+      "height": "400",
+      "width": "300"
     },
     "landscape": {
       "src": "http://fpoimg.com/800x450?text=Landscape 16:9",
-      "alt": "Landscape 16:9"
+      "alt": "Landscape 16:9",
+      "height": "450",
+      "width": "800"
     }
   },
+
   "year": {
-    "long": "2013",
-    "short": "13"
+    "long": "2016",
+    "short": "16"
   },
   "month": {
-    "long": "February",
-    "short": "Feb",
-    "digit": "02"
+    "long": "September",
+    "short": "Sep",
+    "digit": "09"
   },
   "weekday": {
-    "long": "Monday",
-    "short": "Mon"
+    "long": "Wednesday",
+    "short": "Wed"
   },
   "day": {
-    "long": "10",
-    "short": "10",
+    "long": "28",
+    "short": "28",
     "ordinal": "th"
   },
   "hour": {
@@ -59,6 +79,5 @@
     "long": "20",
     "short": "20"
   },
-  "seconds": "31",
-  "body": "<p>This is the body content, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. There is no limit to how long this content can be.</p>"
+  "seconds": "31"
 }
