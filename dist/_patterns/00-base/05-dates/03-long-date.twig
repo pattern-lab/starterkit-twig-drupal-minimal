@@ -1,1 +1,3 @@
-{{ weekday.long }}, {{ month.long }} {{ day.short }}, {{ year.long }}
+{% if year %}
+  {{ weekday.long }}, {{ month.long }} {{ day.short }}, {{ year.long }}
+{% endif %}

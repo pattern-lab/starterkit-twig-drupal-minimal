@@ -1,1 +1,3 @@
-{{ year.long }}-{{ month.digit }}-{{ day.long }}
+{% if year %}
+  {{ month.digit }}-{{ day.long }}-{{ year.long }}
+{% endif %}
