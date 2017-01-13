@@ -1,4 +1,7 @@
-<article class="teaser" role="article">
+<article class="teaser teaser--media-object" role="article">
+    <div class="teaser__media">
+        <a href="{{ url }}">{% include "base-thumbnail-image" %}</a>
+    </div>
     <div class="teaser__content">
         <h3 class="teaser__title"><a href="{{ url }}">{{ title }}</a></h3>
         <div class="teaser__meta">
