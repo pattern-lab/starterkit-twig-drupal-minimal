@@ -1,8 +1,11 @@
 <article class="teaser teaser--media-object" role="article">
+
     <div class="teaser__media">
         <a href="#">{% include "base-thumbnail-image" %}</a>
     </div>
+
     <div class="teaser__content">
+      {% block header %}
         <h3 class="teaser__title">
             <a href="#">{{ article.title|default("Article Title") }}</a>
         </h3>
@@ -18,6 +21,9 @@
             <a class="comment-count" href="#">
                 <span>{{ article.commentCount|default("23") }}</span>Comments</a>
         </div>
+      {% endblock %}
+
+      {% block content %}
         <div class="teaser__summary">
             {{ article.summary|default("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>") | raw }}
         </div>
@@ -28,5 +34,6 @@
         <div class="teaser__tags">
             <a href="#">Tag 1</a>,  <a href="#">Tag 2</a>
         </div>
+      {% endblock %}
     </div>
 </article>
