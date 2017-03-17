@@ -1,27 +1,19 @@
 {
-    "name":             "pattern-lab/starterkit-twig-drupal-minimal",
-    "description":      "Pattern Lab's Base StarterKit for Drupal.",
-    "keywords":         ["twig", "pattern lab", "starterkit", "demo", "drupal"],
+    "name":             "forumone/starterkit-twig-drupal-gesso",
+    "description":      "Pattern Lab's StarterKit for the Gesso Drupal theme",
+    "keywords":         ["twig", "pattern lab", "starterkit", "gesso", "drupal"],
     "homepage":         "http://patternlab.io",
     "license":          "GPL-2.0+",
     "type":             "patternlab-starterkit",
     "authors": [
         {
-            "name":         "Dave Olsen",
-            "email":        "dmolsen@gmail.com",
-            "homepage":     "http://dmolsen.com",
-            "role":         "Lead Developer"
-        },
-        {
-            "name":         "Brad Frost",
-            "homepage":     "http://bradfrostweb.com",
-            "role":         "Creator"
+            "name":         "Corey Lafferty",
+            "email":        "clafferty@forumone.com"
         }
     ],
     "support": {
-        "issues":         "https://github.com/pattern-lab/starterkit-twig-drupal-minimal/issues",
-        "wiki":           "http://patternlab.io/docs/",
-        "source":         "https://github.com/pattern-lab/starterkit-twig-drupal-minimal/releases"
+        "issues":         "https://github.com/forumone/starterkit-twig-drupal-gesso/issues",
+        "source":         "https://github.com/forumone/starterkit-twig-drupal-gesso"
     },
     "require": {
         "pattern-lab/core": "^2.0.0",
