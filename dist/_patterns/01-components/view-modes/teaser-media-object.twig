@@ -1,7 +1,7 @@
 <article class="teaser teaser--media-object" role="article">
-    <div class="teaser__media">
+    <figure class="teaser__media">
         <a href="#">{% include "base-thumbnail-image" %}</a>
-    </div>
+    </figure>
     <div class="teaser__content">
       {% block header %}
         <h3 class="teaser__title">
@@ -27,9 +27,6 @@
         <a class="teaser__more-link" href="#">
             <span>Learn more about {{ article.title|default("Article Title")  }}</span>
         </a>
-        <div class="teaser__tags">
-            <a href="#">Tag 1</a>,  <a href="#">Tag 2</a>
-        </div>
       {% endblock %}
     </div>
 </article>
