@@ -17,14 +17,12 @@
                 <span>{{ article.commentCount|default("23") }}</span>Comments</a>
         </div>
       {% endblock %}
-
       {% block content %}
         <div class="teaser__summary">
             {{ article.summary|default("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>") | raw }}
         </div>
         <a class="teaser__more-link" href="#">
-            <span>Learn more about
-                {{ article.title|default("Article Title")  }}</span>
+            <span>Learn more about {{ article.title|default("Article Title")  }}</span>
         </a>
         <div class="teaser__tags">
             <a href="#">Tag 1</a>,  <a href="#">Tag 2</a>
