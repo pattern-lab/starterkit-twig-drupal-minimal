@@ -1,5 +1,5 @@
 {
-    "name":             "pattern-lab/starterkit-twig-drupal-minimal",
+    "name":             "SyneticNL/starterkit-drupal",
     "description":      "Pattern Lab's Base StarterKit for Drupal.",
     "keywords":         ["twig", "pattern lab", "starterkit", "demo", "drupal"],
     "homepage":         "http://patternlab.io",
@@ -19,9 +19,9 @@
         }
     ],
     "support": {
-        "issues":         "https://github.com/pattern-lab/starterkit-twig-drupal-minimal/issues",
+        "issues":         "https://github.com/SyneticNL/starterkit-drupal/issues",
         "wiki":           "http://patternlab.io/docs/",
-        "source":         "https://github.com/pattern-lab/starterkit-twig-drupal-minimal/releases"
+        "source":         "https://github.com/SyneticNL/starterkit-drupal/releases"
     },
     "require": {
         "pattern-lab/core": "^2.0.0",

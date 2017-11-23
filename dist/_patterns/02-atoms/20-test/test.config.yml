@@ -1,0 +1,30 @@
+title: test
+#status: wip
+notes: Default button styling with alternative variations.
+context:
+  content: "Default Button"
+  url: "#"
+variants:
+  -
+    name: clean
+    label: Clean Button
+    context:
+      content: "Clean Button"
+      modifier:
+        - "clean"
+  -
+    name: wide-medium
+    label: Wide Button
+    status: done
+    context:
+      content: "Wide Medium"
+      modifier:
+        - "wide-medium"
+  -
+    name: demo
+    label: Demo Button
+    status: inprogress
+    context:
+      content: "demo"
+      modifier:
+        - "clean"

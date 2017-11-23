@@ -1,0 +1,23 @@
+select_items:
+  1:
+    label: "Optgroup"
+    type: "optgroup"
+    options:
+      1:
+        title: "Optgroup Item 1"
+      2:
+        title: "Optgroup Item 2"
+  2:
+    title: "Sem Risus Fermentum"
+    type: "option"
+    value: "Another Value"
+  3:
+    title: "Fringilla Pellentesque Pharetra"
+    type: "option"
+  4:
+    title: "Purus Consectetur"
+    type: "option"
+  5:
+    title: "This one is selected"
+    type: "option"
+    selected: "true"

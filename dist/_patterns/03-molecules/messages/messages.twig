@@ -1,0 +1,25 @@
+{% set message_type = message_type|default('status') %}
+
+<div role="contentinfo" class="messages {{ 'messages--' ~ message_type }}" aria-label="{{ status_headings[messages_type]}}" {{ attributes.addClass(classes)|without('role', 'aria-label')}}>
+  {% if message_type == 'error' %}
+  <div role="alert">
+    {% endif %}
+    {% if status_headings[message_type] %}
+      <h2 class="visually-hidden">{{ status_headings[message_type] }}</h2>
+    {% endif %}
+    {% if message_content|length > 1 %}
+      <ul class="messages__list">
+        <li class="messages__item">{{ message_content }}</li>
+        {#{% for message in message_content %}#}
+          {##}
+        {#{% endfor %}#}
+      </ul>
+    {% else %}
+      {{ message_content|first }}
+    {% endif %}
+    {% if message_type == 'error' %}
+  </div>
+  {% endif %}
+</div>
+{# Remove type specific classes. #}
+  {% set attributes = attributes.removeClass(classes) %}

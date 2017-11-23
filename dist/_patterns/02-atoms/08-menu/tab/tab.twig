@@ -1,0 +1,121 @@
+{#
+/**
+ * @file
+ * Theme override for a local task link.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper element.
+ * - is_active: Whether the task item is an active tab.
+ * - link: A rendered link element.
+ *
+ * Note: This template renders the content for each task item in
+ * menu-local-tasks.html.twig.
+ *
+ * @see template_preprocess_menu_local_task()
+ */
+#}
+{#{%#}
+  {#set link_classes = [#}
+    {#is_active ? 'is-active',#}
+    {#'tabs__link',#}
+    {#'tabs__link--local-tasks'#}
+  {#]#}
+{#%}#}
+
+ {%
+ set classes = [
+ 'menu__list-item',
+ 'menu-main__list-item',
+ 'menu-main__list-item--level-' ~ menu_level,
+ item_is_expanded ? 'menu-main__list-item--expandible',
+ item_is_collapsed ? 'menu-main__list-item--collapsed',
+ item_in_active_trail ? 'menu-main__list-item--active-trail',
+ (loop.first) ? 'menu-main__list-item--first',
+ (loop.last) ? 'menu-main__list-item--last',
+ ]
+ %}
+
+  {%
+  set link_classes = [
+  'menu__link',
+  'menu-main__link',
+  'menu-main__link--level-' ~ menu_level,
+  item_in_active_trail ? 'menu-main__link--active',
+  ]
+  %}
+
+  {%
+  set nolink_classes = [
+  'nolink',
+  'menu__nolink',
+  'menu-main__nolink',
+  'menu-main__nolink--level-' ~ menu_level,
+  item_below ? 'js-openSubmenu',
+  ]
+  %}
+
+
+{# if Pattern Lab atoms example, add ul wrapper #}
+{% if example %}
+<ul class="menu menu-main menu-main--level-0">
+{% endif %}
+{#<li{{ attributes }}>#}
+  {# Detect if Drupal #}
+  {#{% if attributes %}#}
+    {#{{ link(link['#title'], link['#url'], { 'class' : link_classes }) }}#}
+  {#{% else %}#}
+    {#<a href="{{ tab_link }}" class="tabs__link tabs__link--local-tasks{% if key == 0 %} is-active{% endif %}">{{ tab_text }}</a>#}
+  {#{% endif %}#}
+{#</li>#}
+
+
+  {% set title %}
+    <span class="menu-main__link-text menu-main__link-text--level-{{ menu_level }}">{{ item_title }}</span>
+  {% endset %}
+
+  {% if menu_level == 1 and loop.first %}
+    {{ parent }}
+  {% endif %}
+
+  {% if item_url.toString == '' %}
+    {% if attributes %}
+      <li{{ attributes.addClass(classes) }}>
+        {{ link(link['#title'], link['#url'], { 'class' : nolink_classes }) }}
+        {% if item_below %}
+          {{ menus.menu_links(item_below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% else %}
+      <li class="menu__list-item menu-main__list-item menu-main__list-item--level-0 menu-main__list-item--expandible">
+        <span class="nolink menu__nolink menu-main__nolink menu-main__nolink--level-0 js-openSubmenu{% if key == 0 %} is-active{% endif %}">{{ item_text }}</span>
+        {% if item_below %}
+          {{ menus.menu_links(item_below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endif %}
+  {% else %}
+    {% if attributes %}
+      <li{{ attributes.addClass(classes) }}>
+        {{ link(link['#title'], link['#url'], { 'class' : link_classes }) }}
+        {% if item_below %}
+          {{ menus.menu_links(item_below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% else %}
+      <li class="menu__list-item menu-main__list-item menu-main__list-item--level-0 menu-main__list-item--expandible">
+        <a href="{{ item_url }}" class="menu__list-item menu-main__list-item">
+          <span class="menu__link menu-main__link{% if key == 0 %} is-active{% endif %}">{{ item_text }}</span>
+        </a>
+        {% if item_below %}
+          {{ menus.menu_links(item_below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endif %}
+  {%  endif %}
+
+
+
+
+  {% if example %}
+</ul>
+{% endif %}

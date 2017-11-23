@@ -1,0 +1,50 @@
+# Image
+testblock_img_modifiers:
+testblock_img_blockname:
+testblock_img_src:
+  "https://placeimg.com/1280/720/nature"
+testblock_img_alt:
+  "This is the testblock image's alt text"
+
+# Title
+testblock_label:
+  "This is a testblock Label"
+testblock_title:
+  "This is a testblock title"
+testblock_title_link:
+testblock_title_modifiers:
+  1:
+    no-space
+testblock_title_blockname:
+
+# Subtitle
+testblock_subtitle:
+  "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+testblock_subtitle_link:
+testblock_subtitle_modifiers:
+  1:
+    no-space
+testblock_subtitle_blockname:
+
+# Body
+testblock_body:
+  "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+testblock_body_modifiers:
+testblock_body_blockname:
+
+# Link
+testblock_link_url:
+  "#"
+testblock_link_text:
+  'Read more about this testblock'
+testblock_link_modifiers:
+  1:
+    more-link
+testblock_link_blockname:
+
+
+testblock_button_content:
+  "Default Button"
+testblock_button_url:
+  "#"
+testblock_button_modifier: ""

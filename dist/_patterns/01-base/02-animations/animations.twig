@@ -1,0 +1,8 @@
+
+<div class="pl-container">
+  {% for animation in animations %}
+    <div class="pl-block">
+      <div class="demo-animate demo-animate--{{ animation.modifier }}"><strong>{{ animation.name }}</strong> {{ animation.description }}</div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,239 @@
+{
+  "version": "4.1.0",
+  "versiondate": "2017-09-26",
+  "gulpVersion": "4.1.0",
+  "allowLocalOverride": true,
+  "general" : {
+    "projectpath" : "example.dev",
+    "logopath" : "./_patterns/01-base/06-logo/logo.png",
+    "sound": false
+  },
+  "locations" : {
+    "styles" : {
+      "src": "./_patterns/",
+      "dist": "css/",
+      "libraries": "./_patterns/00--global/libraries/",
+      "patternlab": {
+        "src": "./patternlab-styling/scss/",
+        "dist": "./patternlab-styling/css/"
+      }
+    },
+    "javascript" : {
+      "src": "js/",
+      "dist": "js/",
+      "libraries": "js/libraries/",
+      "patternlab": {
+        "styleguide": [
+          "./js/**/*.js",
+          "./_patterns/**/*.js"
+        ]
+      }
+    },
+    "icons" : {
+      "src": "fonts/iconfonts/"
+    },
+    "fonts" : {
+      "src": "fonts/"
+    },
+    "images" : {
+      "src": "images/0_src/",
+      "dist": "images/"
+    },
+    "php" : {
+      "src": ["template/", "functions/"]
+    },
+    "twig" : {
+      "src": "templates/"
+    },
+    "yaml" : {
+      "src": "./"
+    },
+    "markdown" : {
+      "src": "./"
+    }
+  },
+  "styles" : {
+    "browsersupport": ["> 1%", "last 2 versions", "IE 9"],
+    "minify" : false,
+    "gzip" :  false,
+    "compass" :  false,
+    "normalize" : {
+      "use" : true,
+      "force" : false,
+      "allowDuplicates" : false
+    },
+    "exclude" : [],
+    "sourcemaps" : {
+      "generate" :  true,
+      "location" : "/",
+      "loadmaps" : false,
+      "identitymap" : false,
+      "debug" : false,
+      "addcomment" : true,
+      "includecontent" : true,
+      "charset" : "utf8",
+      "destpath" : "",
+      "sourcemappingurlprefix" : ""
+    },
+    "linter" : {
+      "config" : ".sass-lint.yml"
+    },
+    "flatten": true,
+    "sourceComments": false,
+    "sourceMapEmbed": false,
+    "autoPrefixerBrowsers": [
+      "last 2 versions",
+      "IE >= 10"
+    ]
+  },
+  "js" : {
+    "sourcemaps" : {
+      "generate" : true,
+      "location" : "",
+      "loadmaps" : false,
+      "identitymap" : false,
+      "debug" : false,
+      "addcomment" : true,
+      "includecontent" : true,
+      "charset" : "utf8",
+      "destpath" : "",
+      "sourcemappingurlprefix" : ""
+    },
+    "minify" : false,
+    "gzip" : false,
+    "bootstrap" : {
+      "version": "4.0.0-beta",
+      "files": {
+        "alert": false,
+        "button": false,
+        "carousel": false,
+        "collapse": false,
+        "dropdown": false,
+        "modal": false,
+        "popover": false,
+        "scrollspy": false,
+        "tab": false,
+        "tooltip": false
+      }
+    },
+    "modernizr" : {
+      "include" : [],
+      "exclude" : []
+    }
+  },
+  "images" : {
+    "gif" : {
+      "interlaced" : true,
+      "optimizationlevel" : 3
+    },
+    "jpeg" : {
+      "progressive" : true,
+      "max" : 80
+    },
+    "png" : {
+      "floyd" : 0.5,
+      "nofs" : false,
+      "quality" : 100,
+      "speed" : 3,
+      "verbose" : false
+    },
+    "webp" : {
+      "use" : true,
+      "preset" : "default",
+      "quality" : 75,
+      "alphaQuality" : 100,
+      "method" : 4,
+      "sns" : 80,
+      "lossless" : false
+    }
+  },
+  "watch" : {
+    "styles" : {
+      "use" : true,
+      "extensions": ["scss", "sass"],
+      "tasks" : ["styles"]
+    },
+    "icons" : {
+      "use": true,
+      "extensions": ["eot", "woff", "ttf", "svg"]
+    },
+    "fonts" : {
+      "use": true,
+      "extensions": ["eot", "woff", "ttf", "svg"]
+    },
+    "images" : {
+      "use": true,
+      "extensions": ["jpg", "jpeg", "png", "svg", "gif", "webp"]
+    },
+    "javascript" : {
+      "use": true,
+      "extensions": ["js", "json"]
+    },
+    "php" : {
+      "use": true,
+      "extensions": ["php", "phtml"]
+    },
+    "twig" : {
+      "use": true,
+      "extensions": ["twig"]
+    },
+    "yaml" : {
+      "use": true,
+      "extensions": ["yml", "yaml"]
+    },
+    "markdown" : {
+      "use": true,
+      "extensions": ["md"]
+    }
+  },
+  "browsersync" : {
+    "open" : false,
+    "loglevel" : "info",
+    "logfilechanges" : false
+  },
+  "share" : {
+    "open" : false,
+    "clicks" : false,
+    "forms" : false,
+    "scroll" : false,
+    "port" : 3333
+  },
+  "quality" : {
+    "maxsize" : {
+      "general" : "30000",
+      "css" : "10000",
+      "js" : "10000",
+      "images" : "15000"
+    }
+  },
+  "patternlab": {
+    "enabled": true,
+    "configFile": "../config/config.yml",
+    "theme": {
+      "src": "../theme/styleguidekit-assets-synetic/"
+    },
+    "scssToYAML": [
+      {
+        "src": "./_patterns/01-base/01-colors/_color--variables.scss",
+        "dest": "./_patterns/01-base/01-colors/colors.yml",
+        "lineStartsWith": "$",
+        "allowVarValues": false
+      },
+      {
+        "src": "./_patterns/01-base/03-icons/icons/example/variables.scss",
+        "dest": "./_patterns/01-base/03-icons/icons.yml",
+        "lineStartsWith": "$",
+        "allowVarValues": false
+      }
+    ],
+    "browsersync": {
+      "enabled": true,
+      "basedir": "../",
+      "startpath": "../public/",
+      "notify": false,
+      "openBrowserAtStart": false,
+      "reloadOnRestart": true,
+      "ui": false
+    }
+  }
+}

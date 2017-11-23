@@ -1,0 +1,31 @@
+{#{% for font in fonts %}#}
+  {#<div class="pl-container pl-font--{{ font.name }}">#}
+    {#<h3>Font: {{ font.font }}</h3>#}
+    {#{% for style in font.style %}#}
+      {#<h4>Style: {{ style }}</h4>#}
+      {#<div class="pl-block pl-font--{{ style }}">#}
+        {#{% for weight in font.weight %}#}
+          {#<p class="pl-font--{{ weight }}">#}
+            {#font-weight {{ weight }}:<br>#}
+            {#{{ font.string }}#}
+          {#</p>#}
+        {#{% endfor %}#}
+      {#</div>#}
+    {#{% endfor %}#}
+  {#</div>#}
+{#{% endfor %}#}
+
+<div class="pl-container pl-font--{{ name }}">
+  <h3>Font: {{ font }}</h3>
+  {% for style in styles %}
+    <h4>Style: {{ style }}</h4>
+    <div class="pl-block pl-font--{{ style }}">
+      {% for weight in weights %}
+        <p class="pl-font--{{ weight }}">
+          font-weight {{ weight }}:<br>
+          {{ string }}
+        </p>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

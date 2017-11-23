@@ -1,0 +1,19 @@
+testblock_modifiers:
+  1:
+    bg
+
+# Title
+testblock_title:
+  'This is a testblock-bg title'
+
+# Subtitle
+testblock_subtitle:
+
+# Link
+testblock_link_url:
+
+# Button
+testblock_button_url:
+  '#'
+testblock_button_content:
+  'Read more'

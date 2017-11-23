@@ -1,0 +1,17 @@
+<div class="sg-container">
+  <ul class="sg-swatch-block sg-colors sg-display-blocks">
+    {% for item in items %}
+      <li class="sg-display-block">
+        <div class="sg-swatch" style="background: {{item.value}};"></div>
+        <div class="sg-info">
+          <span class="sg-swatch-hex">{{item.value}}</span> <br/>
+          <code class="sg-swatch-variable">{{item.name}}</code>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if meta %}
+    <p> <small>{{ meta.description }}</small> </p>
+  {% endif %}
+
+</div>

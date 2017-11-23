@@ -1,0 +1,29 @@
+/**
+ *  _headings.scss
+ *
+ * Styling defined for headings. Base styling is being defined by bootstrap.
+ */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+$headings--font-sizes: $h1-font-size, $h2-font-size, $h3-font-size, $h4-font-size, $h5-font-size, $h6-font-size;
+$headings--margin-bottom: $heading-h1-margin-bottom, $heading-h2-margin-bottom, $heading-h3-margin-bottom, $heading-h4-margin-bottom, $heading-h5-margin-bottom, $heading-h6-margin-bottom;
+@for $i from 1 through length($headings--font-sizes) {
+  h#{$i}, .h#{$i} {
+    font-size: nth($headings--font-sizes, $i);
+    margin-bottom: nth($headings--margin-bottom, $i);
+    &--alt {
+      color: $secondary-color;
+    }
+  }
+}
+
+.margin-h1 {
+  margin-bottom: $heading-h1-margin-bottom;
+}

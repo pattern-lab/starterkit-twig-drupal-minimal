@@ -1,0 +1,1579 @@
+items:
+  - name: $icomoon-font-path
+    value: '"fonts" !default'
+  - name: $icon-asterisk
+    value: '"\f069"'
+  - name: $icon-plus
+    value: '"\f067"'
+  - name: $icon-question
+    value: '"\f128"'
+  - name: $icon-minus
+    value: '"\f068"'
+  - name: $icon-glass
+    value: '"\f000"'
+  - name: $icon-music
+    value: '"\f001"'
+  - name: $icon-search
+    value: '"\f002"'
+  - name: $icon-envelope-o
+    value: '"\f003"'
+  - name: $icon-heart
+    value: '"\f004"'
+  - name: $icon-star
+    value: '"\f005"'
+  - name: $icon-star-o
+    value: '"\f006"'
+  - name: $icon-user
+    value: '"\f007"'
+  - name: $icon-film
+    value: '"\f008"'
+  - name: $icon-th-large
+    value: '"\f009"'
+  - name: $icon-th
+    value: '"\f00a"'
+  - name: $icon-th-list
+    value: '"\f00b"'
+  - name: $icon-check
+    value: '"\f00c"'
+  - name: $icon-close
+    value: '"\f00d"'
+  - name: $icon-remove
+    value: '"\f00d"'
+  - name: $icon-times
+    value: '"\f00d"'
+  - name: $icon-search-plus
+    value: '"\f00e"'
+  - name: $icon-search-minus
+    value: '"\f010"'
+  - name: $icon-power-off
+    value: '"\f011"'
+  - name: $icon-signal
+    value: '"\f012"'
+  - name: $icon-cog
+    value: '"\f013"'
+  - name: $icon-gear
+    value: '"\f013"'
+  - name: $icon-trash-o
+    value: '"\f014"'
+  - name: $icon-home
+    value: '"\f015"'
+  - name: $icon-file-o
+    value: '"\f016"'
+  - name: $icon-clock-o
+    value: '"\f017"'
+  - name: $icon-road
+    value: '"\f018"'
+  - name: $icon-download
+    value: '"\f019"'
+  - name: $icon-arrow-circle-o-down
+    value: '"\f01a"'
+  - name: $icon-arrow-circle-o-up
+    value: '"\f01b"'
+  - name: $icon-inbox
+    value: '"\f01c"'
+  - name: $icon-play-circle-o
+    value: '"\f01d"'
+  - name: $icon-repeat
+    value: '"\f01e"'
+  - name: $icon-rotate-right
+    value: '"\f01e"'
+  - name: $icon-refresh
+    value: '"\f021"'
+  - name: $icon-list-alt
+    value: '"\f022"'
+  - name: $icon-lock
+    value: '"\f023"'
+  - name: $icon-flag
+    value: '"\f024"'
+  - name: $icon-headphones
+    value: '"\f025"'
+  - name: $icon-volume-off
+    value: '"\f026"'
+  - name: $icon-volume-down
+    value: '"\f027"'
+  - name: $icon-volume-up
+    value: '"\f028"'
+  - name: $icon-qrcode
+    value: '"\f029"'
+  - name: $icon-barcode
+    value: '"\f02a"'
+  - name: $icon-tag
+    value: '"\f02b"'
+  - name: $icon-tags
+    value: '"\f02c"'
+  - name: $icon-book
+    value: '"\f02d"'
+  - name: $icon-bookmark
+    value: '"\f02e"'
+  - name: $icon-print
+    value: '"\f02f"'
+  - name: $icon-camera
+    value: '"\f030"'
+  - name: $icon-font
+    value: '"\f031"'
+  - name: $icon-bold
+    value: '"\f032"'
+  - name: $icon-italic
+    value: '"\f033"'
+  - name: $icon-text-height
+    value: '"\f034"'
+  - name: $icon-text-width
+    value: '"\f035"'
+  - name: $icon-align-left
+    value: '"\f036"'
+  - name: $icon-align-center
+    value: '"\f037"'
+  - name: $icon-align-right
+    value: '"\f038"'
+  - name: $icon-align-justify
+    value: '"\f039"'
+  - name: $icon-list
+    value: '"\f03a"'
+  - name: $icon-dedent
+    value: '"\f03b"'
+  - name: $icon-outdent
+    value: '"\f03b"'
+  - name: $icon-indent
+    value: '"\f03c"'
+  - name: $icon-video-camera
+    value: '"\f03d"'
+  - name: $icon-image
+    value: '"\f03e"'
+  - name: $icon-photo
+    value: '"\f03e"'
+  - name: $icon-picture-o
+    value: '"\f03e"'
+  - name: $icon-pencil
+    value: '"\f040"'
+  - name: $icon-map-marker
+    value: '"\f041"'
+  - name: $icon-adjust
+    value: '"\f042"'
+  - name: $icon-tint
+    value: '"\f043"'
+  - name: $icon-edit
+    value: '"\f044"'
+  - name: $icon-pencil-square-o
+    value: '"\f044"'
+  - name: $icon-share-square-o
+    value: '"\f045"'
+  - name: $icon-check-square-o
+    value: '"\f046"'
+  - name: $icon-arrows
+    value: '"\f047"'
+  - name: $icon-step-backward
+    value: '"\f048"'
+  - name: $icon-fast-backward
+    value: '"\f049"'
+  - name: $icon-backward
+    value: '"\f04a"'
+  - name: $icon-play
+    value: '"\f04b"'
+  - name: $icon-pause
+    value: '"\f04c"'
+  - name: $icon-stop
+    value: '"\f04d"'
+  - name: $icon-forward
+    value: '"\f04e"'
+  - name: $icon-fast-forward
+    value: '"\f050"'
+  - name: $icon-step-forward
+    value: '"\f051"'
+  - name: $icon-eject
+    value: '"\f052"'
+  - name: $icon-chevron-left
+    value: '"\f053"'
+  - name: $icon-chevron-right
+    value: '"\f054"'
+  - name: $icon-plus-circle
+    value: '"\f055"'
+  - name: $icon-minus-circle
+    value: '"\f056"'
+  - name: $icon-times-circle
+    value: '"\f057"'
+  - name: $icon-check-circle
+    value: '"\f058"'
+  - name: $icon-question-circle
+    value: '"\f059"'
+  - name: $icon-info-circle
+    value: '"\f05a"'
+  - name: $icon-crosshairs
+    value: '"\f05b"'
+  - name: $icon-times-circle-o
+    value: '"\f05c"'
+  - name: $icon-check-circle-o
+    value: '"\f05d"'
+  - name: $icon-ban
+    value: '"\f05e"'
+  - name: $icon-arrow-left
+    value: '"\f060"'
+  - name: $icon-arrow-right
+    value: '"\f061"'
+  - name: $icon-arrow-up
+    value: '"\f062"'
+  - name: $icon-arrow-down
+    value: '"\f063"'
+  - name: $icon-mail-forward
+    value: '"\f064"'
+  - name: $icon-share
+    value: '"\f064"'
+  - name: $icon-expand
+    value: '"\f065"'
+  - name: $icon-compress
+    value: '"\f066"'
+  - name: $icon-exclamation-circle
+    value: '"\f06a"'
+  - name: $icon-gift
+    value: '"\f06b"'
+  - name: $icon-leaf
+    value: '"\f06c"'
+  - name: $icon-fire
+    value: '"\f06d"'
+  - name: $icon-eye
+    value: '"\f06e"'
+  - name: $icon-eye-slash
+    value: '"\f070"'
+  - name: $icon-exclamation-triangle
+    value: '"\f071"'
+  - name: $icon-warning
+    value: '"\f071"'
+  - name: $icon-plane
+    value: '"\f072"'
+  - name: $icon-calendar
+    value: '"\f073"'
+  - name: $icon-random
+    value: '"\f074"'
+  - name: $icon-comment
+    value: '"\f075"'
+  - name: $icon-magnet
+    value: '"\f076"'
+  - name: $icon-chevron-up
+    value: '"\f077"'
+  - name: $icon-chevron-down
+    value: '"\f078"'
+  - name: $icon-retweet
+    value: '"\f079"'
+  - name: $icon-shopping-cart
+    value: '"\f07a"'
+  - name: $icon-folder
+    value: '"\f07b"'
+  - name: $icon-folder-open
+    value: '"\f07c"'
+  - name: $icon-arrows-v
+    value: '"\f07d"'
+  - name: $icon-arrows-h
+    value: '"\f07e"'
+  - name: $icon-bar-chart
+    value: '"\f080"'
+  - name: $icon-bar-chart-o
+    value: '"\f080"'
+  - name: $icon-twitter-square
+    value: '"\f081"'
+  - name: $icon-facebook-square
+    value: '"\f082"'
+  - name: $icon-camera-retro
+    value: '"\f083"'
+  - name: $icon-key
+    value: '"\f084"'
+  - name: $icon-cogs
+    value: '"\f085"'
+  - name: $icon-gears
+    value: '"\f085"'
+  - name: $icon-comments
+    value: '"\f086"'
+  - name: $icon-thumbs-o-up
+    value: '"\f087"'
+  - name: $icon-thumbs-o-down
+    value: '"\f088"'
+  - name: $icon-star-half
+    value: '"\f089"'
+  - name: $icon-heart-o
+    value: '"\f08a"'
+  - name: $icon-sign-out
+    value: '"\f08b"'
+  - name: $icon-linkedin-square
+    value: '"\f08c"'
+  - name: $icon-thumb-tack
+    value: '"\f08d"'
+  - name: $icon-external-link
+    value: '"\f08e"'
+  - name: $icon-sign-in
+    value: '"\f090"'
+  - name: $icon-trophy
+    value: '"\f091"'
+  - name: $icon-github-square
+    value: '"\f092"'
+  - name: $icon-upload
+    value: '"\f093"'
+  - name: $icon-lemon-o
+    value: '"\f094"'
+  - name: $icon-phone
+    value: '"\f095"'
+  - name: $icon-square-o
+    value: '"\f096"'
+  - name: $icon-bookmark-o
+    value: '"\f097"'
+  - name: $icon-phone-square
+    value: '"\f098"'
+  - name: $icon-twitter
+    value: '"\f099"'
+  - name: $icon-facebook
+    value: '"\f09a"'
+  - name: $icon-facebook-f
+    value: '"\f09a"'
+  - name: $icon-github
+    value: '"\f09b"'
+  - name: $icon-unlock
+    value: '"\f09c"'
+  - name: $icon-credit-card
+    value: '"\f09d"'
+  - name: $icon-feed
+    value: '"\f09e"'
+  - name: $icon-rss
+    value: '"\f09e"'
+  - name: $icon-hdd-o
+    value: '"\f0a0"'
+  - name: $icon-bullhorn
+    value: '"\f0a1"'
+  - name: $icon-bell-o
+    value: '"\f0a2"'
+  - name: $icon-certificate
+    value: '"\f0a3"'
+  - name: $icon-hand-o-right
+    value: '"\f0a4"'
+  - name: $icon-hand-o-left
+    value: '"\f0a5"'
+  - name: $icon-hand-o-up
+    value: '"\f0a6"'
+  - name: $icon-hand-o-down
+    value: '"\f0a7"'
+  - name: $icon-arrow-circle-left
+    value: '"\f0a8"'
+  - name: $icon-arrow-circle-right
+    value: '"\f0a9"'
+  - name: $icon-arrow-circle-up
+    value: '"\f0aa"'
+  - name: $icon-arrow-circle-down
+    value: '"\f0ab"'
+  - name: $icon-globe
+    value: '"\f0ac"'
+  - name: $icon-wrench
+    value: '"\f0ad"'
+  - name: $icon-tasks
+    value: '"\f0ae"'
+  - name: $icon-filter
+    value: '"\f0b0"'
+  - name: $icon-briefcase
+    value: '"\f0b1"'
+  - name: $icon-arrows-alt
+    value: '"\f0b2"'
+  - name: $icon-group
+    value: '"\f0c0"'
+  - name: $icon-users
+    value: '"\f0c0"'
+  - name: $icon-chain
+    value: '"\f0c1"'
+  - name: $icon-link
+    value: '"\f0c1"'
+  - name: $icon-cloud
+    value: '"\f0c2"'
+  - name: $icon-flask
+    value: '"\f0c3"'
+  - name: $icon-cut
+    value: '"\f0c4"'
+  - name: $icon-scissors
+    value: '"\f0c4"'
+  - name: $icon-copy
+    value: '"\f0c5"'
+  - name: $icon-files-o
+    value: '"\f0c5"'
+  - name: $icon-paperclip
+    value: '"\f0c6"'
+  - name: $icon-floppy-o
+    value: '"\f0c7"'
+  - name: $icon-save
+    value: '"\f0c7"'
+  - name: $icon-square
+    value: '"\f0c8"'
+  - name: $icon-bars
+    value: '"\f0c9"'
+  - name: $icon-navicon
+    value: '"\f0c9"'
+  - name: $icon-reorder
+    value: '"\f0c9"'
+  - name: $icon-list-ul
+    value: '"\f0ca"'
+  - name: $icon-list-ol
+    value: '"\f0cb"'
+  - name: $icon-strikethrough
+    value: '"\f0cc"'
+  - name: $icon-underline
+    value: '"\f0cd"'
+  - name: $icon-table
+    value: '"\f0ce"'
+  - name: $icon-magic
+    value: '"\f0d0"'
+  - name: $icon-truck
+    value: '"\f0d1"'
+  - name: $icon-pinterest
+    value: '"\f0d2"'
+  - name: $icon-pinterest-square
+    value: '"\f0d3"'
+  - name: $icon-google-plus-square
+    value: '"\f0d4"'
+  - name: $icon-google-plus
+    value: '"\f0d5"'
+  - name: $icon-money
+    value: '"\f0d6"'
+  - name: $icon-caret-down
+    value: '"\f0d7"'
+  - name: $icon-caret-up
+    value: '"\f0d8"'
+  - name: $icon-caret-left
+    value: '"\f0d9"'
+  - name: $icon-caret-right
+    value: '"\f0da"'
+  - name: $icon-columns
+    value: '"\f0db"'
+  - name: $icon-sort
+    value: '"\f0dc"'
+  - name: $icon-unsorted
+    value: '"\f0dc"'
+  - name: $icon-sort-desc
+    value: '"\f0dd"'
+  - name: $icon-sort-down
+    value: '"\f0dd"'
+  - name: $icon-sort-asc
+    value: '"\f0de"'
+  - name: $icon-sort-up
+    value: '"\f0de"'
+  - name: $icon-envelope
+    value: '"\f0e0"'
+  - name: $icon-linkedin
+    value: '"\f0e1"'
+  - name: $icon-rotate-left
+    value: '"\f0e2"'
+  - name: $icon-undo
+    value: '"\f0e2"'
+  - name: $icon-gavel
+    value: '"\f0e3"'
+  - name: $icon-legal
+    value: '"\f0e3"'
+  - name: $icon-dashboard
+    value: '"\f0e4"'
+  - name: $icon-tachometer
+    value: '"\f0e4"'
+  - name: $icon-comment-o
+    value: '"\f0e5"'
+  - name: $icon-comments-o
+    value: '"\f0e6"'
+  - name: $icon-bolt
+    value: '"\f0e7"'
+  - name: $icon-flash
+    value: '"\f0e7"'
+  - name: $icon-sitemap
+    value: '"\f0e8"'
+  - name: $icon-umbrella
+    value: '"\f0e9"'
+  - name: $icon-clipboard
+    value: '"\f0ea"'
+  - name: $icon-paste
+    value: '"\f0ea"'
+  - name: $icon-lightbulb-o
+    value: '"\f0eb"'
+  - name: $icon-exchange
+    value: '"\f0ec"'
+  - name: $icon-cloud-download
+    value: '"\f0ed"'
+  - name: $icon-cloud-upload
+    value: '"\f0ee"'
+  - name: $icon-user-md
+    value: '"\f0f0"'
+  - name: $icon-stethoscope
+    value: '"\f0f1"'
+  - name: $icon-suitcase
+    value: '"\f0f2"'
+  - name: $icon-bell
+    value: '"\f0f3"'
+  - name: $icon-coffee
+    value: '"\f0f4"'
+  - name: $icon-cutlery
+    value: '"\f0f5"'
+  - name: $icon-file-text-o
+    value: '"\f0f6"'
+  - name: $icon-building-o
+    value: '"\f0f7"'
+  - name: $icon-hospital-o
+    value: '"\f0f8"'
+  - name: $icon-ambulance
+    value: '"\f0f9"'
+  - name: $icon-medkit
+    value: '"\f0fa"'
+  - name: $icon-fighter-jet
+    value: '"\f0fb"'
+  - name: $icon-beer
+    value: '"\f0fc"'
+  - name: $icon-h-square
+    value: '"\f0fd"'
+  - name: $icon-plus-square
+    value: '"\f0fe"'
+  - name: $icon-angle-double-left
+    value: '"\f100"'
+  - name: $icon-angle-double-right
+    value: '"\f101"'
+  - name: $icon-angle-double-up
+    value: '"\f102"'
+  - name: $icon-angle-double-down
+    value: '"\f103"'
+  - name: $icon-angle-left
+    value: '"\f104"'
+  - name: $icon-angle-right
+    value: '"\f105"'
+  - name: $icon-angle-up
+    value: '"\f106"'
+  - name: $icon-angle-down
+    value: '"\f107"'
+  - name: $icon-desktop
+    value: '"\f108"'
+  - name: $icon-laptop
+    value: '"\f109"'
+  - name: $icon-tablet
+    value: '"\f10a"'
+  - name: $icon-mobile
+    value: '"\f10b"'
+  - name: $icon-mobile-phone
+    value: '"\f10b"'
+  - name: $icon-circle-o
+    value: '"\f10c"'
+  - name: $icon-quote-left
+    value: '"\f10d"'
+  - name: $icon-quote-right
+    value: '"\f10e"'
+  - name: $icon-spinner
+    value: '"\f110"'
+  - name: $icon-circle
+    value: '"\f111"'
+  - name: $icon-mail-reply
+    value: '"\f112"'
+  - name: $icon-reply
+    value: '"\f112"'
+  - name: $icon-github-alt
+    value: '"\f113"'
+  - name: $icon-folder-o
+    value: '"\f114"'
+  - name: $icon-folder-open-o
+    value: '"\f115"'
+  - name: $icon-smile-o
+    value: '"\f118"'
+  - name: $icon-frown-o
+    value: '"\f119"'
+  - name: $icon-meh-o
+    value: '"\f11a"'
+  - name: $icon-gamepad
+    value: '"\f11b"'
+  - name: $icon-keyboard-o
+    value: '"\f11c"'
+  - name: $icon-flag-o
+    value: '"\f11d"'
+  - name: $icon-flag-checkered
+    value: '"\f11e"'
+  - name: $icon-terminal
+    value: '"\f120"'
+  - name: $icon-code
+    value: '"\f121"'
+  - name: $icon-mail-reply-all
+    value: '"\f122"'
+  - name: $icon-reply-all
+    value: '"\f122"'
+  - name: $icon-star-half-empty
+    value: '"\f123"'
+  - name: $icon-star-half-full
+    value: '"\f123"'
+  - name: $icon-star-half-o
+    value: '"\f123"'
+  - name: $icon-location-arrow
+    value: '"\f124"'
+  - name: $icon-crop
+    value: '"\f125"'
+  - name: $icon-code-fork
+    value: '"\f126"'
+  - name: $icon-chain-broken
+    value: '"\f127"'
+  - name: $icon-unlink
+    value: '"\f127"'
+  - name: $icon-info
+    value: '"\f129"'
+  - name: $icon-exclamation
+    value: '"\f12a"'
+  - name: $icon-superscript
+    value: '"\f12b"'
+  - name: $icon-subscript
+    value: '"\f12c"'
+  - name: $icon-eraser
+    value: '"\f12d"'
+  - name: $icon-puzzle-piece
+    value: '"\f12e"'
+  - name: $icon-microphone
+    value: '"\f130"'
+  - name: $icon-microphone-slash
+    value: '"\f131"'
+  - name: $icon-shield
+    value: '"\f132"'
+  - name: $icon-calendar-o
+    value: '"\f133"'
+  - name: $icon-fire-extinguisher
+    value: '"\f134"'
+  - name: $icon-rocket
+    value: '"\f135"'
+  - name: $icon-maxcdn
+    value: '"\f136"'
+  - name: $icon-chevron-circle-left
+    value: '"\f137"'
+  - name: $icon-chevron-circle-right
+    value: '"\f138"'
+  - name: $icon-chevron-circle-up
+    value: '"\f139"'
+  - name: $icon-chevron-circle-down
+    value: '"\f13a"'
+  - name: $icon-html5
+    value: '"\f13b"'
+  - name: $icon-css3
+    value: '"\f13c"'
+  - name: $icon-anchor
+    value: '"\f13d"'
+  - name: $icon-unlock-alt
+    value: '"\f13e"'
+  - name: $icon-bullseye
+    value: '"\f140"'
+  - name: $icon-ellipsis-h
+    value: '"\f141"'
+  - name: $icon-ellipsis-v
+    value: '"\f142"'
+  - name: $icon-rss-square
+    value: '"\f143"'
+  - name: $icon-play-circle
+    value: '"\f144"'
+  - name: $icon-ticket
+    value: '"\f145"'
+  - name: $icon-minus-square
+    value: '"\f146"'
+  - name: $icon-minus-square-o
+    value: '"\f147"'
+  - name: $icon-level-up
+    value: '"\f148"'
+  - name: $icon-level-down
+    value: '"\f149"'
+  - name: $icon-check-square
+    value: '"\f14a"'
+  - name: $icon-pencil-square
+    value: '"\f14b"'
+  - name: $icon-external-link-square
+    value: '"\f14c"'
+  - name: $icon-share-square
+    value: '"\f14d"'
+  - name: $icon-compass
+    value: '"\f14e"'
+  - name: $icon-caret-square-o-down
+    value: '"\f150"'
+  - name: $icon-toggle-down
+    value: '"\f150"'
+  - name: $icon-caret-square-o-up
+    value: '"\f151"'
+  - name: $icon-toggle-up
+    value: '"\f151"'
+  - name: $icon-caret-square-o-right
+    value: '"\f152"'
+  - name: $icon-toggle-right
+    value: '"\f152"'
+  - name: $icon-eur
+    value: '"\f153"'
+  - name: $icon-euro
+    value: '"\f153"'
+  - name: $icon-gbp
+    value: '"\f154"'
+  - name: $icon-dollar
+    value: '"\f155"'
+  - name: $icon-usd
+    value: '"\f155"'
+  - name: $icon-inr
+    value: '"\f156"'
+  - name: $icon-rupee
+    value: '"\f156"'
+  - name: $icon-cny
+    value: '"\f157"'
+  - name: $icon-jpy
+    value: '"\f157"'
+  - name: $icon-rmb
+    value: '"\f157"'
+  - name: $icon-yen
+    value: '"\f157"'
+  - name: $icon-rouble
+    value: '"\f158"'
+  - name: $icon-rub
+    value: '"\f158"'
+  - name: $icon-ruble
+    value: '"\f158"'
+  - name: $icon-krw
+    value: '"\f159"'
+  - name: $icon-won
+    value: '"\f159"'
+  - name: $icon-bitcoin
+    value: '"\f15a"'
+  - name: $icon-btc
+    value: '"\f15a"'
+  - name: $icon-file
+    value: '"\f15b"'
+  - name: $icon-file-text
+    value: '"\f15c"'
+  - name: $icon-sort-alpha-asc
+    value: '"\f15d"'
+  - name: $icon-sort-alpha-desc
+    value: '"\f15e"'
+  - name: $icon-sort-amount-asc
+    value: '"\f160"'
+  - name: $icon-sort-amount-desc
+    value: '"\f161"'
+  - name: $icon-sort-numeric-asc
+    value: '"\f162"'
+  - name: $icon-sort-numeric-desc
+    value: '"\f163"'
+  - name: $icon-thumbs-up
+    value: '"\f164"'
+  - name: $icon-thumbs-down
+    value: '"\f165"'
+  - name: $icon-youtube-square
+    value: '"\f166"'
+  - name: $icon-youtube
+    value: '"\f167"'
+  - name: $icon-xing
+    value: '"\f168"'
+  - name: $icon-xing-square
+    value: '"\f169"'
+  - name: $icon-youtube-play
+    value: '"\f16a"'
+  - name: $icon-dropbox
+    value: '"\f16b"'
+  - name: $icon-stack-overflow
+    value: '"\f16c"'
+  - name: $icon-instagram
+    value: '"\f16d"'
+  - name: $icon-flickr
+    value: '"\f16e"'
+  - name: $icon-adn
+    value: '"\f170"'
+  - name: $icon-bitbucket
+    value: '"\f171"'
+  - name: $icon-bitbucket-square
+    value: '"\f172"'
+  - name: $icon-tumblr
+    value: '"\f173"'
+  - name: $icon-tumblr-square
+    value: '"\f174"'
+  - name: $icon-long-arrow-down
+    value: '"\f175"'
+  - name: $icon-long-arrow-up
+    value: '"\f176"'
+  - name: $icon-long-arrow-left
+    value: '"\f177"'
+  - name: $icon-long-arrow-right
+    value: '"\f178"'
+  - name: $icon-apple
+    value: '"\f179"'
+  - name: $icon-windows
+    value: '"\f17a"'
+  - name: $icon-android
+    value: '"\f17b"'
+  - name: $icon-linux
+    value: '"\f17c"'
+  - name: $icon-dribbble
+    value: '"\f17d"'
+  - name: $icon-skype
+    value: '"\f17e"'
+  - name: $icon-foursquare
+    value: '"\f180"'
+  - name: $icon-trello
+    value: '"\f181"'
+  - name: $icon-female
+    value: '"\f182"'
+  - name: $icon-male
+    value: '"\f183"'
+  - name: $icon-gittip
+    value: '"\f184"'
+  - name: $icon-gratipay
+    value: '"\f184"'
+  - name: $icon-sun-o
+    value: '"\f185"'
+  - name: $icon-moon-o
+    value: '"\f186"'
+  - name: $icon-archive
+    value: '"\f187"'
+  - name: $icon-bug
+    value: '"\f188"'
+  - name: $icon-vk
+    value: '"\f189"'
+  - name: $icon-weibo
+    value: '"\f18a"'
+  - name: $icon-renren
+    value: '"\f18b"'
+  - name: $icon-pagelines
+    value: '"\f18c"'
+  - name: $icon-stack-exchange
+    value: '"\f18d"'
+  - name: $icon-arrow-circle-o-right
+    value: '"\f18e"'
+  - name: $icon-arrow-circle-o-left
+    value: '"\f190"'
+  - name: $icon-caret-square-o-left
+    value: '"\f191"'
+  - name: $icon-toggle-left
+    value: '"\f191"'
+  - name: $icon-dot-circle-o
+    value: '"\f192"'
+  - name: $icon-wheelchair
+    value: '"\f193"'
+  - name: $icon-vimeo-square
+    value: '"\f194"'
+  - name: $icon-try
+    value: '"\f195"'
+  - name: $icon-turkish-lira
+    value: '"\f195"'
+  - name: $icon-plus-square-o
+    value: '"\f196"'
+  - name: $icon-space-shuttle
+    value: '"\f197"'
+  - name: $icon-slack
+    value: '"\f198"'
+  - name: $icon-envelope-square
+    value: '"\f199"'
+  - name: $icon-wordpress
+    value: '"\f19a"'
+  - name: $icon-openid
+    value: '"\f19b"'
+  - name: $icon-bank
+    value: '"\f19c"'
+  - name: $icon-institution
+    value: '"\f19c"'
+  - name: $icon-university
+    value: '"\f19c"'
+  - name: $icon-graduation-cap
+    value: '"\f19d"'
+  - name: $icon-mortar-board
+    value: '"\f19d"'
+  - name: $icon-yahoo
+    value: '"\f19e"'
+  - name: $icon-google
+    value: '"\f1a0"'
+  - name: $icon-reddit
+    value: '"\f1a1"'
+  - name: $icon-reddit-square
+    value: '"\f1a2"'
+  - name: $icon-stumbleupon-circle
+    value: '"\f1a3"'
+  - name: $icon-stumbleupon
+    value: '"\f1a4"'
+  - name: $icon-delicious
+    value: '"\f1a5"'
+  - name: $icon-digg
+    value: '"\f1a6"'
+  - name: $icon-pied-piper-pp
+    value: '"\f1a7"'
+  - name: $icon-pied-piper-alt
+    value: '"\f1a8"'
+  - name: $icon-drupal
+    value: '"\f1a9"'
+  - name: $icon-joomla
+    value: '"\f1aa"'
+  - name: $icon-language
+    value: '"\f1ab"'
+  - name: $icon-fax
+    value: '"\f1ac"'
+  - name: $icon-building
+    value: '"\f1ad"'
+  - name: $icon-child
+    value: '"\f1ae"'
+  - name: $icon-paw
+    value: '"\f1b0"'
+  - name: $icon-spoon
+    value: '"\f1b1"'
+  - name: $icon-cube
+    value: '"\f1b2"'
+  - name: $icon-cubes
+    value: '"\f1b3"'
+  - name: $icon-behance
+    value: '"\f1b4"'
+  - name: $icon-behance-square
+    value: '"\f1b5"'
+  - name: $icon-steam
+    value: '"\f1b6"'
+  - name: $icon-steam-square
+    value: '"\f1b7"'
+  - name: $icon-recycle
+    value: '"\f1b8"'
+  - name: $icon-automobile
+    value: '"\f1b9"'
+  - name: $icon-car
+    value: '"\f1b9"'
+  - name: $icon-cab
+    value: '"\f1ba"'
+  - name: $icon-taxi
+    value: '"\f1ba"'
+  - name: $icon-tree
+    value: '"\f1bb"'
+  - name: $icon-spotify
+    value: '"\f1bc"'
+  - name: $icon-deviantart
+    value: '"\f1bd"'
+  - name: $icon-soundcloud
+    value: '"\f1be"'
+  - name: $icon-database
+    value: '"\f1c0"'
+  - name: $icon-file-pdf-o
+    value: '"\f1c1"'
+  - name: $icon-file-word-o
+    value: '"\f1c2"'
+  - name: $icon-file-excel-o
+    value: '"\f1c3"'
+  - name: $icon-file-powerpoint-o
+    value: '"\f1c4"'
+  - name: $icon-file-image-o
+    value: '"\f1c5"'
+  - name: $icon-file-photo-o
+    value: '"\f1c5"'
+  - name: $icon-file-picture-o
+    value: '"\f1c5"'
+  - name: $icon-file-archive-o
+    value: '"\f1c6"'
+  - name: $icon-file-zip-o
+    value: '"\f1c6"'
+  - name: $icon-file-audio-o
+    value: '"\f1c7"'
+  - name: $icon-file-sound-o
+    value: '"\f1c7"'
+  - name: $icon-file-movie-o
+    value: '"\f1c8"'
+  - name: $icon-file-video-o
+    value: '"\f1c8"'
+  - name: $icon-file-code-o
+    value: '"\f1c9"'
+  - name: $icon-vine
+    value: '"\f1ca"'
+  - name: $icon-codepen
+    value: '"\f1cb"'
+  - name: $icon-jsfiddle
+    value: '"\f1cc"'
+  - name: $icon-life-bouy
+    value: '"\f1cd"'
+  - name: $icon-life-buoy
+    value: '"\f1cd"'
+  - name: $icon-life-ring
+    value: '"\f1cd"'
+  - name: $icon-life-saver
+    value: '"\f1cd"'
+  - name: $icon-support
+    value: '"\f1cd"'
+  - name: $icon-circle-o-notch
+    value: '"\f1ce"'
+  - name: $icon-ra
+    value: '"\f1d0"'
+  - name: $icon-rebel
+    value: '"\f1d0"'
+  - name: $icon-resistance
+    value: '"\f1d0"'
+  - name: $icon-empire
+    value: '"\f1d1"'
+  - name: $icon-ge
+    value: '"\f1d1"'
+  - name: $icon-git-square
+    value: '"\f1d2"'
+  - name: $icon-git
+    value: '"\f1d3"'
+  - name: $icon-hacker-news
+    value: '"\f1d4"'
+  - name: $icon-y-combinator-square
+    value: '"\f1d4"'
+  - name: $icon-yc-square
+    value: '"\f1d4"'
+  - name: $icon-tencent-weibo
+    value: '"\f1d5"'
+  - name: $icon-qq
+    value: '"\f1d6"'
+  - name: $icon-wechat
+    value: '"\f1d7"'
+  - name: $icon-weixin
+    value: '"\f1d7"'
+  - name: $icon-paper-plane
+    value: '"\f1d8"'
+  - name: $icon-send
+    value: '"\f1d8"'
+  - name: $icon-paper-plane-o
+    value: '"\f1d9"'
+  - name: $icon-send-o
+    value: '"\f1d9"'
+  - name: $icon-history
+    value: '"\f1da"'
+  - name: $icon-circle-thin
+    value: '"\f1db"'
+  - name: $icon-header
+    value: '"\f1dc"'
+  - name: $icon-paragraph
+    value: '"\f1dd"'
+  - name: $icon-sliders
+    value: '"\f1de"'
+  - name: $icon-share-alt
+    value: '"\f1e0"'
+  - name: $icon-share-alt-square
+    value: '"\f1e1"'
+  - name: $icon-bomb
+    value: '"\f1e2"'
+  - name: $icon-futbol-o
+    value: '"\f1e3"'
+  - name: $icon-soccer-ball-o
+    value: '"\f1e3"'
+  - name: $icon-tty
+    value: '"\f1e4"'
+  - name: $icon-binoculars
+    value: '"\f1e5"'
+  - name: $icon-plug
+    value: '"\f1e6"'
+  - name: $icon-slideshare
+    value: '"\f1e7"'
+  - name: $icon-twitch
+    value: '"\f1e8"'
+  - name: $icon-yelp
+    value: '"\f1e9"'
+  - name: $icon-newspaper-o
+    value: '"\f1ea"'
+  - name: $icon-wifi
+    value: '"\f1eb"'
+  - name: $icon-calculator
+    value: '"\f1ec"'
+  - name: $icon-paypal
+    value: '"\f1ed"'
+  - name: $icon-google-wallet
+    value: '"\f1ee"'
+  - name: $icon-cc-visa
+    value: '"\f1f0"'
+  - name: $icon-cc-mastercard
+    value: '"\f1f1"'
+  - name: $icon-cc-discover
+    value: '"\f1f2"'
+  - name: $icon-cc-amex
+    value: '"\f1f3"'
+  - name: $icon-cc-paypal
+    value: '"\f1f4"'
+  - name: $icon-cc-stripe
+    value: '"\f1f5"'
+  - name: $icon-bell-slash
+    value: '"\f1f6"'
+  - name: $icon-bell-slash-o
+    value: '"\f1f7"'
+  - name: $icon-trash
+    value: '"\f1f8"'
+  - name: $icon-copyright
+    value: '"\f1f9"'
+  - name: $icon-at
+    value: '"\f1fa"'
+  - name: $icon-eyedropper
+    value: '"\f1fb"'
+  - name: $icon-paint-brush
+    value: '"\f1fc"'
+  - name: $icon-birthday-cake
+    value: '"\f1fd"'
+  - name: $icon-area-chart
+    value: '"\f1fe"'
+  - name: $icon-pie-chart
+    value: '"\f200"'
+  - name: $icon-line-chart
+    value: '"\f201"'
+  - name: $icon-lastfm
+    value: '"\f202"'
+  - name: $icon-lastfm-square
+    value: '"\f203"'
+  - name: $icon-toggle-off
+    value: '"\f204"'
+  - name: $icon-toggle-on
+    value: '"\f205"'
+  - name: $icon-bicycle
+    value: '"\f206"'
+  - name: $icon-bus
+    value: '"\f207"'
+  - name: $icon-ioxhost
+    value: '"\f208"'
+  - name: $icon-angellist
+    value: '"\f209"'
+  - name: $icon-cc
+    value: '"\f20a"'
+  - name: $icon-ils
+    value: '"\f20b"'
+  - name: $icon-shekel
+    value: '"\f20b"'
+  - name: $icon-sheqel
+    value: '"\f20b"'
+  - name: $icon-meanpath
+    value: '"\f20c"'
+  - name: $icon-buysellads
+    value: '"\f20d"'
+  - name: $icon-connectdevelop
+    value: '"\f20e"'
+  - name: $icon-dashcube
+    value: '"\f210"'
+  - name: $icon-forumbee
+    value: '"\f211"'
+  - name: $icon-leanpub
+    value: '"\f212"'
+  - name: $icon-sellsy
+    value: '"\f213"'
+  - name: $icon-shirtsinbulk
+    value: '"\f214"'
+  - name: $icon-simplybuilt
+    value: '"\f215"'
+  - name: $icon-skyatlas
+    value: '"\f216"'
+  - name: $icon-cart-plus
+    value: '"\f217"'
+  - name: $icon-cart-arrow-down
+    value: '"\f218"'
+  - name: $icon-diamond
+    value: '"\f219"'
+  - name: $icon-ship
+    value: '"\f21a"'
+  - name: $icon-user-secret
+    value: '"\f21b"'
+  - name: $icon-motorcycle
+    value: '"\f21c"'
+  - name: $icon-street-view
+    value: '"\f21d"'
+  - name: $icon-heartbeat
+    value: '"\f21e"'
+  - name: $icon-venus
+    value: '"\f221"'
+  - name: $icon-mars
+    value: '"\f222"'
+  - name: $icon-mercury
+    value: '"\f223"'
+  - name: $icon-intersex
+    value: '"\f224"'
+  - name: $icon-transgender
+    value: '"\f224"'
+  - name: $icon-transgender-alt
+    value: '"\f225"'
+  - name: $icon-venus-double
+    value: '"\f226"'
+  - name: $icon-mars-double
+    value: '"\f227"'
+  - name: $icon-venus-mars
+    value: '"\f228"'
+  - name: $icon-mars-stroke
+    value: '"\f229"'
+  - name: $icon-mars-stroke-v
+    value: '"\f22a"'
+  - name: $icon-mars-stroke-h
+    value: '"\f22b"'
+  - name: $icon-neuter
+    value: '"\f22c"'
+  - name: $icon-genderless
+    value: '"\f22d"'
+  - name: $icon-facebook-official
+    value: '"\f230"'
+  - name: $icon-pinterest-p
+    value: '"\f231"'
+  - name: $icon-whatsapp
+    value: '"\f232"'
+  - name: $icon-server
+    value: '"\f233"'
+  - name: $icon-user-plus
+    value: '"\f234"'
+  - name: $icon-user-times
+    value: '"\f235"'
+  - name: $icon-bed
+    value: '"\f236"'
+  - name: $icon-hotel
+    value: '"\f236"'
+  - name: $icon-viacoin
+    value: '"\f237"'
+  - name: $icon-train
+    value: '"\f238"'
+  - name: $icon-subway
+    value: '"\f239"'
+  - name: $icon-medium
+    value: '"\f23a"'
+  - name: $icon-y-combinator
+    value: '"\f23b"'
+  - name: $icon-yc
+    value: '"\f23b"'
+  - name: $icon-optin-monster
+    value: '"\f23c"'
+  - name: $icon-opencart
+    value: '"\f23d"'
+  - name: $icon-expeditedssl
+    value: '"\f23e"'
+  - name: $icon-battery
+    value: '"\f240"'
+  - name: $icon-battery-4
+    value: '"\f240"'
+  - name: $icon-battery-full
+    value: '"\f240"'
+  - name: $icon-battery-3
+    value: '"\f241"'
+  - name: $icon-battery-three-quarters
+    value: '"\f241"'
+  - name: $icon-battery-2
+    value: '"\f242"'
+  - name: $icon-battery-half
+    value: '"\f242"'
+  - name: $icon-battery-1
+    value: '"\f243"'
+  - name: $icon-battery-quarter
+    value: '"\f243"'
+  - name: $icon-battery-0
+    value: '"\f244"'
+  - name: $icon-battery-empty
+    value: '"\f244"'
+  - name: $icon-mouse-pointer
+    value: '"\f245"'
+  - name: $icon-i-cursor
+    value: '"\f246"'
+  - name: $icon-object-group
+    value: '"\f247"'
+  - name: $icon-object-ungroup
+    value: '"\f248"'
+  - name: $icon-sticky-note
+    value: '"\f249"'
+  - name: $icon-sticky-note-o
+    value: '"\f24a"'
+  - name: $icon-cc-jcb
+    value: '"\f24b"'
+  - name: $icon-cc-diners-club
+    value: '"\f24c"'
+  - name: $icon-clone
+    value: '"\f24d"'
+  - name: $icon-balance-scale
+    value: '"\f24e"'
+  - name: $icon-hourglass-o
+    value: '"\f250"'
+  - name: $icon-hourglass-1
+    value: '"\f251"'
+  - name: $icon-hourglass-start
+    value: '"\f251"'
+  - name: $icon-hourglass-2
+    value: '"\f252"'
+  - name: $icon-hourglass-half
+    value: '"\f252"'
+  - name: $icon-hourglass-3
+    value: '"\f253"'
+  - name: $icon-hourglass-end
+    value: '"\f253"'
+  - name: $icon-hourglass
+    value: '"\f254"'
+  - name: $icon-hand-grab-o
+    value: '"\f255"'
+  - name: $icon-hand-rock-o
+    value: '"\f255"'
+  - name: $icon-hand-paper-o
+    value: '"\f256"'
+  - name: $icon-hand-stop-o
+    value: '"\f256"'
+  - name: $icon-hand-scissors-o
+    value: '"\f257"'
+  - name: $icon-hand-lizard-o
+    value: '"\f258"'
+  - name: $icon-hand-spock-o
+    value: '"\f259"'
+  - name: $icon-hand-pointer-o
+    value: '"\f25a"'
+  - name: $icon-hand-peace-o
+    value: '"\f25b"'
+  - name: $icon-trademark
+    value: '"\f25c"'
+  - name: $icon-registered
+    value: '"\f25d"'
+  - name: $icon-creative-commons
+    value: '"\f25e"'
+  - name: $icon-gg
+    value: '"\f260"'
+  - name: $icon-gg-circle
+    value: '"\f261"'
+  - name: $icon-tripadvisor
+    value: '"\f262"'
+  - name: $icon-odnoklassniki
+    value: '"\f263"'
+  - name: $icon-odnoklassniki-square
+    value: '"\f264"'
+  - name: $icon-get-pocket
+    value: '"\f265"'
+  - name: $icon-wikipedia-w
+    value: '"\f266"'
+  - name: $icon-safari
+    value: '"\f267"'
+  - name: $icon-chrome
+    value: '"\f268"'
+  - name: $icon-firefox
+    value: '"\f269"'
+  - name: $icon-opera
+    value: '"\f26a"'
+  - name: $icon-internet-explorer
+    value: '"\f26b"'
+  - name: $icon-television
+    value: '"\f26c"'
+  - name: $icon-tv
+    value: '"\f26c"'
+  - name: $icon-contao
+    value: '"\f26d"'
+  - name: $icon-500px
+    value: '"\f26e"'
+  - name: $icon-amazon
+    value: '"\f270"'
+  - name: $icon-calendar-plus-o
+    value: '"\f271"'
+  - name: $icon-calendar-minus-o
+    value: '"\f272"'
+  - name: $icon-calendar-times-o
+    value: '"\f273"'
+  - name: $icon-calendar-check-o
+    value: '"\f274"'
+  - name: $icon-industry
+    value: '"\f275"'
+  - name: $icon-map-pin
+    value: '"\f276"'
+  - name: $icon-map-signs
+    value: '"\f277"'
+  - name: $icon-map-o
+    value: '"\f278"'
+  - name: $icon-map
+    value: '"\f279"'
+  - name: $icon-commenting
+    value: '"\f27a"'
+  - name: $icon-commenting-o
+    value: '"\f27b"'
+  - name: $icon-houzz
+    value: '"\f27c"'
+  - name: $icon-vimeo
+    value: '"\f27d"'
+  - name: $icon-black-tie
+    value: '"\f27e"'
+  - name: $icon-fonticons
+    value: '"\f280"'
+  - name: $icon-reddit-alien
+    value: '"\f281"'
+  - name: $icon-edge
+    value: '"\f282"'
+  - name: $icon-credit-card-alt
+    value: '"\f283"'
+  - name: $icon-codiepie
+    value: '"\f284"'
+  - name: $icon-modx
+    value: '"\f285"'
+  - name: $icon-fort-awesome
+    value: '"\f286"'
+  - name: $icon-usb
+    value: '"\f287"'
+  - name: $icon-product-hunt
+    value: '"\f288"'
+  - name: $icon-mixcloud
+    value: '"\f289"'
+  - name: $icon-scribd
+    value: '"\f28a"'
+  - name: $icon-pause-circle
+    value: '"\f28b"'
+  - name: $icon-pause-circle-o
+    value: '"\f28c"'
+  - name: $icon-stop-circle
+    value: '"\f28d"'
+  - name: $icon-stop-circle-o
+    value: '"\f28e"'
+  - name: $icon-shopping-bag
+    value: '"\f290"'
+  - name: $icon-shopping-basket
+    value: '"\f291"'
+  - name: $icon-hashtag
+    value: '"\f292"'
+  - name: $icon-bluetooth
+    value: '"\f293"'
+  - name: $icon-bluetooth-b
+    value: '"\f294"'
+  - name: $icon-percent
+    value: '"\f295"'
+  - name: $icon-gitlab
+    value: '"\f296"'
+  - name: $icon-wpbeginner
+    value: '"\f297"'
+  - name: $icon-wpforms
+    value: '"\f298"'
+  - name: $icon-envira
+    value: '"\f299"'
+  - name: $icon-universal-access
+    value: '"\f29a"'
+  - name: $icon-wheelchair-alt
+    value: '"\f29b"'
+  - name: $icon-question-circle-o
+    value: '"\f29c"'
+  - name: $icon-blind
+    value: '"\f29d"'
+  - name: $icon-audio-description
+    value: '"\f29e"'
+  - name: $icon-volume-control-phone
+    value: '"\f2a0"'
+  - name: $icon-braille
+    value: '"\f2a1"'
+  - name: $icon-assistive-listening-systems
+    value: '"\f2a2"'
+  - name: $icon-american-sign-language-interpreting
+    value: '"\f2a3"'
+  - name: $icon-asl-interpreting
+    value: '"\f2a3"'
+  - name: $icon-deaf
+    value: '"\f2a4"'
+  - name: $icon-deafness
+    value: '"\f2a4"'
+  - name: $icon-hard-of-hearing
+    value: '"\f2a4"'
+  - name: $icon-glide
+    value: '"\f2a5"'
+  - name: $icon-glide-g
+    value: '"\f2a6"'
+  - name: $icon-sign-language
+    value: '"\f2a7"'
+  - name: $icon-signing
+    value: '"\f2a7"'
+  - name: $icon-low-vision
+    value: '"\f2a8"'
+  - name: $icon-viadeo
+    value: '"\f2a9"'
+  - name: $icon-viadeo-square
+    value: '"\f2aa"'
+  - name: $icon-snapchat
+    value: '"\f2ab"'
+  - name: $icon-snapchat-ghost
+    value: '"\f2ac"'
+  - name: $icon-snapchat-square
+    value: '"\f2ad"'
+  - name: $icon-pied-piper
+    value: '"\f2ae"'
+  - name: $icon-first-order
+    value: '"\f2b0"'
+  - name: $icon-yoast
+    value: '"\f2b1"'
+  - name: $icon-themeisle
+    value: '"\f2b2"'
+  - name: $icon-google-plus-circle
+    value: '"\f2b3"'
+  - name: $icon-google-plus-official
+    value: '"\f2b3"'
+  - name: $icon-fa
+    value: '"\f2b4"'
+  - name: $icon-font-awesome
+    value: '"\f2b4"'
+  - name: $icon-handshake-o
+    value: '"\f2b5"'
+  - name: $icon-envelope-open
+    value: '"\f2b6"'
+  - name: $icon-envelope-open-o
+    value: '"\f2b7"'
+  - name: $icon-linode
+    value: '"\f2b8"'
+  - name: $icon-address-book
+    value: '"\f2b9"'
+  - name: $icon-address-book-o
+    value: '"\f2ba"'
+  - name: $icon-address-card
+    value: '"\f2bb"'
+  - name: $icon-vcard
+    value: '"\f2bb"'
+  - name: $icon-address-card-o
+    value: '"\f2bc"'
+  - name: $icon-vcard-o
+    value: '"\f2bc"'
+  - name: $icon-user-circle
+    value: '"\f2bd"'
+  - name: $icon-user-circle-o
+    value: '"\f2be"'
+  - name: $icon-user-o
+    value: '"\f2c0"'
+  - name: $icon-id-badge
+    value: '"\f2c1"'
+  - name: $icon-drivers-license
+    value: '"\f2c2"'
+  - name: $icon-id-card
+    value: '"\f2c2"'
+  - name: $icon-drivers-license-o
+    value: '"\f2c3"'
+  - name: $icon-id-card-o
+    value: '"\f2c3"'
+  - name: $icon-quora
+    value: '"\f2c4"'
+  - name: $icon-free-code-camp
+    value: '"\f2c5"'
+  - name: $icon-telegram
+    value: '"\f2c6"'
+  - name: $icon-thermometer
+    value: '"\f2c7"'
+  - name: $icon-thermometer-4
+    value: '"\f2c7"'
+  - name: $icon-thermometer-full
+    value: '"\f2c7"'
+  - name: $icon-thermometer-3
+    value: '"\f2c8"'
+  - name: $icon-thermometer-three-quarters
+    value: '"\f2c8"'
+  - name: $icon-thermometer-2
+    value: '"\f2c9"'
+  - name: $icon-thermometer-half
+    value: '"\f2c9"'
+  - name: $icon-thermometer-1
+    value: '"\f2ca"'
+  - name: $icon-thermometer-quarter
+    value: '"\f2ca"'
+  - name: $icon-thermometer-0
+    value: '"\f2cb"'
+  - name: $icon-thermometer-empty
+    value: '"\f2cb"'
+  - name: $icon-shower
+    value: '"\f2cc"'
+  - name: $icon-bath
+    value: '"\f2cd"'
+  - name: $icon-bathtub
+    value: '"\f2cd"'
+  - name: $icon-s15
+    value: '"\f2cd"'
+  - name: $icon-podcast
+    value: '"\f2ce"'
+  - name: $icon-window-maximize
+    value: '"\f2d0"'
+  - name: $icon-window-minimize
+    value: '"\f2d1"'
+  - name: $icon-window-restore
+    value: '"\f2d2"'
+  - name: $icon-times-rectangle
+    value: '"\f2d3"'
+  - name: $icon-window-close
+    value: '"\f2d3"'
+  - name: $icon-times-rectangle-o
+    value: '"\f2d4"'
+  - name: $icon-window-close-o
+    value: '"\f2d4"'
+  - name: $icon-bandcamp
+    value: '"\f2d5"'
+  - name: $icon-grav
+    value: '"\f2d6"'
+  - name: $icon-etsy
+    value: '"\f2d7"'
+  - name: $icon-imdb
+    value: '"\f2d8"'
+  - name: $icon-ravelry
+    value: '"\f2d9"'
+  - name: $icon-eercast
+    value: '"\f2da"'
+  - name: $icon-microchip
+    value: '"\f2db"'
+  - name: $icon-snowflake-o
+    value: '"\f2dc"'
+  - name: $icon-superpowers
+    value: '"\f2dd"'
+  - name: $icon-wpexplorer
+    value: '"\f2de"'
+  - name: $icon-meetup
+    value: '"\f2e0"'
+meta:
+  description: >-
+    To add to these items, use Sass variables that start with <code>$</code> in
+    <code>./pattern-lab/source/_patterns/01-base/03-icons/icons/example/variables.scss</code>
