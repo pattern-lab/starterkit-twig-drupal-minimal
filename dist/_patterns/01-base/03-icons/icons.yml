@@ -1576,4 +1576,4 @@ items:
 meta:
   description: >-
     To add to these items, use Sass variables that start with <code>$</code> in
-    <code>./pattern-lab/source/_patterns/01-base/03-icons/icons/example/variables.scss</code>
+    <code>../../components/icons/example/variables.scss</code>
