@@ -1,4 +1,4 @@
 // Load Icon Library
-$icomoon-font-path: "../pattern-lab/source/_patterns/01-base/03-icons/icons/example/fonts"; // This is needed to make sure the .css file links to the right file.
+$icomoon-font-path: "../icons/example/fonts"; // This is needed to make sure the .css file links to the right file.
 $icon-family-name: "iconfamilyname"; // Icon name needed for mixin
-@import "icons/example/style.scss";
+@import "../../../icons/example/style.scss";
