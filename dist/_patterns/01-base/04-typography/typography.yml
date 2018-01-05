@@ -10,3 +10,41 @@ weights:
   - "600"
   - "700"
   - "900"
+
+fonts:
+  1:
+    name: "body"
+    font: "OpenSans"
+    implementation: "Body Font";
+    variable: "$font-family-base";
+    string: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue."
+    styles:
+      1:
+        name: "regular"
+      2:
+        name: "italic"
+        tag: "i"
+    weights:
+      - "300"
+      - "400"
+      - "600"
+      - "700"
+      - "900"
+  2:
+    name: "heading"
+    font: "Lato"
+    implementation: "Heading Font";
+    variable: "$font-family-heading";
+    string: "Praesent commodo cursus magna."
+    styles:
+      1:
+        name: "regular"
+      2:
+        name: "italic"
+        tag: "i"
+    weights:
+      - "300"
+      - "400"
+      - "600"
+      - "700"
+      - "900"
