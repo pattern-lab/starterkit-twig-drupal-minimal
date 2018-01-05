@@ -1,0 +1,8 @@
+example: true
+item_url: "#"
+item_text: "View"
+item_is_expanded: false
+item_is_collapsed: false
+item_in_active_trail: false
+item_first: false
+item_last: false

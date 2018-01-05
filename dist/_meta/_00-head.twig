@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html class="{{ htmlClass }}">
-	<head>
-		<title>{{ title }}</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
-		
-		<link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
-		
-		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
-		{{ patternLabHead | raw }}
-		<!-- End Pattern Lab -->
-		
-	</head>
-	<body class="{{ bodyClass }}">
-	
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Pattern Lab base styles -->
+    <link rel="stylesheet" href="../../patternlab-styling/css/style.css" media="all" />
+    <link rel="stylesheet" href="../../patternlab-styling/css/patternlab-specific.css" media="all" />
+    <!-- Component styles -->
+    <link rel="stylesheet" href="../../css/main.css?{{ cacheBuster }}" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {{ patternLabHead | raw }}
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="{{ bodyClass }}">
+    <!-- for js not found errors in Pattern Lab -->
+  	<div class="visually-hidden">
+  		<div id="tabs" class="tabs"></div>
+  	</div>

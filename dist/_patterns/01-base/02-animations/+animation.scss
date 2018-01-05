@@ -1,0 +1,13 @@
+@import "~animations";
+
+.demo-animate {
+  background: #ddd;
+  padding: 1.4rem;
+  margin: 0 auto 1.4rem;
+  max-width: 90%;
+  text-align: center;
+  cursor: pointer;
+  &--box-shadow {
+    @include animate--box-shadow(0.4s, $primary-color);
+  }
+}

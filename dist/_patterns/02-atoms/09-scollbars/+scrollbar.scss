@@ -1,0 +1,26 @@
+@import "~mixin--scrollbar";
+.pl-scrollbars__container {
+  width: 100%;
+  height: 150px;
+  margin: 2rem 0;
+  &--vertical {
+    overflow-y: scroll;
+  }
+  &--horizontal {
+    overflow-x: scroll;
+  }
+}
+.pl-scollbar {
+  &--vertical {
+    background: #ddd;
+    height: 150%;
+    width: 100%;
+    display: block;
+  }
+  &--horizontal {
+    background: #ddd;
+    height: 100%;
+    width: 150%;
+    display: block;
+  }
+}

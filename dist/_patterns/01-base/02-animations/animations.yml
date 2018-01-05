@@ -1,0 +1,5 @@
+animations:
+  1:
+    name: "Box-Shadow Slide Up"
+    modifier: "box-shadow"
+    description: "Duration: 0.4s Easing: ease-in-out (Hover to see effect)"

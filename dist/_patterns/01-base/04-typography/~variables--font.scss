@@ -1,0 +1,12 @@
+//
+// @_fonts.scss
+
+//$typography-font-path: "pattern-lab/source/_patterns/01-base/04-typography/fonts";
+$typography-font-path: "../fonts";
+
+$heading-h1-margin-bottom: ($spacer * 1.2);
+$heading-h2-margin-bottom: $spacer;
+$heading-h3-margin-bottom: ($spacer * 0.4);
+$heading-h4-margin-bottom: ($spacer * 0.5);
+$heading-h5-margin-bottom: ($spacer / 2);
+$heading-h6-margin-bottom: ($spacer / 2);

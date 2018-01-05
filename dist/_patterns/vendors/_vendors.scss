@@ -1,0 +1,15 @@
+/**
+ *  @_global.scss
+ *  Imports of global scss files.
+ *
+ *  The files below do not belong to a specific component or are difficult to separate into components such as global variables or libraries.
+ */
+
+// Load Helpers
+@import "~variables";
+
+// Load Bootstrap Library
+@import "vendors/~vendor--bootstrap";
+
+// Load hamburger library
+@import "vendors/~vendor--hamburgers";

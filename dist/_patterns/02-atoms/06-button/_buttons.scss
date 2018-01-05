@@ -1,0 +1,50 @@
+//General Button
+.button {
+  display: inline-block;
+  padding: 0.8rem 2.2rem;
+  color: $white;
+  text-decoration: none;
+  text-align: center;
+  background: $primary-color;
+  border: none;
+  box-shadow: inset 0 -3px 0 0 $secondary-color;
+  //transition: box-shadow $transition--button;
+  cursor: pointer;
+  &:visited {
+    color: $white;
+  }
+  &:hover,
+  &:focus {
+    color: $white;
+    text-decoration: none;
+    box-shadow: inset 0 -100px 0 0 $secondary-color;
+  }
+  &--clean {
+    color: $primary-color;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: 1px solid transparent;
+    padding-top: 0;
+    //transition: border ($transition-duration-base / 2) $transition-property-base;
+    &:visited {
+      color: $primary-color;
+    }
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+      text-decoration: none;
+      box-shadow: none;
+      border-bottom-color: inherit;
+      border-radius: 0;
+    }
+  }
+  + .button {
+    margin-left: 1rem;
+  }
+  &--wide-medium {
+    width: 100%;
+    max-width: 240px;
+  }
+}

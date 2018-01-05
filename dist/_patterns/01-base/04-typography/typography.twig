@@ -1,0 +1,36 @@
+{% for font in fonts %}
+  <div class="pl-container pl-font--{{ font.name }}" style="font-family: {{ font.font }};">
+    <h3 class="pl-font__title">{{ font.font }}</h3>
+    {% if font.implementation %}
+    <div class="pl-font__implementation">
+      <label>Implementation:</label>
+      <span>{{ font.implementation }}</span>
+    </div>
+    {% endif %}
+    {% if font-variable %}
+    <div class="pl-font__variable">
+      <label>Font-variable:</label>
+      <span>{{ font.variable }}</span>
+    </div>
+    {% endif %}
+    {% for style in font.styles %}
+      <h4 class="pl-font__style-title"><label>Style:</label> {{ style.name }}</h4>
+      <div class="pl-block pl-font--{{ style.name }}">
+        {% for weight in font.weights %}
+          <label>Font-weight:</label> <span>{{ weight }}:</span>
+        <p class="pl-font--{{ weight }}" style="font-weight: {{ weight }};">
+          {% if style.tag %}
+            <{{ style.tag }}>
+          {% endif %}
+          
+          {{ font.string }}
+          
+          {% if style.tag %}
+            </{{ style.tag }}>
+          {% endif %}
+          </p>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
