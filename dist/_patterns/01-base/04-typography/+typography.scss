@@ -1,16 +1,1 @@
-.pl-font {
-  &--body {
-    font-family: OpenSans;
-  }
-  &--heading {
-    font-family: Lato;
-  }
-  &--italic {
-    font-style: italic;
-  }
-  @for $i from 1 through 9 {
-    &--#{$i * 100} {
-      font-weight: #{$i * 100};
-    }
-  }
-}
+
