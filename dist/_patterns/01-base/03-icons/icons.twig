@@ -1,0 +1,14 @@
+<div class="sg-container">
+  <ul class="sg-swatch-block sg-icons sg-display-blocks">
+    {% for item in items %}
+      {% if item.name != "$icomoon-font-path" %}
+        <li class="sg-display-block">
+          <div class="sg-info icons__item">
+            <i class="{{ item.name|replace({'$': ''}) }}"></i>
+            <figcaption>{{ item.name }}</figcaption>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

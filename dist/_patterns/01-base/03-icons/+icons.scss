@@ -1,0 +1,10 @@
+.sg-icons i {
+  display: block;
+  padding: 0.5rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $gray-light-2;
+  font-size: 5rem;
+  &:before {
+    margin: 0 auto;
+  }
+}

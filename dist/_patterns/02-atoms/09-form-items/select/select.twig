@@ -1,0 +1,29 @@
+<div class="custom-select">
+  {% spaceless %}
+    <select{{ attributes }}>
+      {% for option in select_items %}
+        {% if option.type == 'optgroup' %}
+          <optgroup label="{{ option.label }}">
+            {% for sub_option in option.options %}
+              {% include "@atoms/10-forms/select/_select-item.twig" with {
+              "select_item": sub_option.title,
+              "option_value": sub_option.value,
+              "option_selected": sub_option.selected
+              } %}
+            {% endfor %}
+          </optgroup>
+        {% elseif option.type == 'option' %}
+          {% include "@atoms/10-forms/select/_select-item.twig" with {
+          "select_item": option.title,
+          "option_value": option.value,
+          "option_selected": option.selected
+          } %}
+        {% endif %}
+      {% endfor %}
+    </select>
+  {% endspaceless %}
+  <span class="custom-select__trigger">
+    <i class="custom-select__trigger-icon icon-ziggo_icons_arrow_open_down_light"></i>
+  </span>
+</div>
+
