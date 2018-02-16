@@ -1,11 +1,24 @@
 <div class="sg-header-styles">
-  {% for i in 1..6 %}
-    <div class="sg-pattern pl-heading-examples">
-      <h3 class="sg-pattern-title">h{{ i }}</h3>
-      <h{{ i }} class="h{{ i }}">This is a Header {{ i }} example</h{{ i }}>
-    </div>
-  {% endfor %}
+{% for heading in headings %}
+  <div class="sg-pattern pl-heading-examples">
+    {% if heading.styles is empty %}
+      <h3 class="sg-pattern-title">H{{ heading.level }} {{ style.name }}</h3>
+      {% include "_heading.twig" with {
+        "heading_level": heading.level,
+        "heading": heading.text,
+      } %}
+      <p>{{ heading.font_family }}, {{ heading.font_weight }}, {{ heading.font_size }}, {{ heading.line_height }}, {{ heading.color }}.</p>
+    {% else %}
+      {% for style in heading.styles %}
+        <h3 class="sg-pattern-title">H{{ heading.level }} {{ style.name }}</h3>
+        {% include "_heading.twig" with {
+          "heading_level": heading.level,
+          "heading": heading.text,
+          "heading_modifiers": style,
+        } %}
+        <p>{% if style.font_family is not empty %}{{ style.font_family }}{% else %}{{ heading.font_family }}{% endif %}, {% if style.font_weight is not empty %}{{ style.font_weight }}{% else %}{{ heading.font_weight }}{% endif %}, {% if style.font_size is not empty %}{{ style.font_size }}{% else %}{{ heading.font_size }}{% endif %}, {% if style.line_height is not empty %}{{ style.line_height }}{% else %}{{ heading.line_height }}{% endif %}, {% if style.color is not empty %}{{ style.color }}{% else %}{{ heading.color }}{% endif %}.</p>
+      {% endfor %}
+    {% endif %}
+  </div>
+{% endfor %}
 </div>
-{% if meta %}
-  <p> <small>{{ meta.description }}</small> </p>
-{% endif %}

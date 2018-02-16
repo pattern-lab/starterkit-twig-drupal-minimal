@@ -1,0 +1,38 @@
+{#
+/**
+ * Available variables:
+ * - link_content - the content of the link (typically text)
+ * - link_url - the url this link should poing to
+ * - link_attributes - array of attribute,value pairs
+ * - link_base_class - the base class name
+ * - link_modifiers - array of modifiers to add to the base classname
+ * - link_blockname - blockname prepended to the base classname
+ *
+ * Available blocks:
+ * - link_content - used to replace the content of the link
+ *     Example: to insert the image component
+ */
+#}
+{% set link_base_class = link_base_class|default('link') %}
+
+{% set attributes = attributes|default(link_attributes) %}
+{% set url = url|default(link_url) %}
+{% set icon = icon|default(link_icon) %}
+{% set data = data|default(link_content) %}
+{% set modifiers = modifiers|default(link_modifiers) %}
+{% set base_class = base_class|default(link_base_class) %}
+
+<a {{ bem(base_class, (modifiers), link_blockname, extra_classes) }} {{ attributes }}{% if url %} href="{{ url }}"{% endif %}>
+  {% if icon %}
+    <i class="link__icon {{ icon }}"></i><span>
+  {% endif %}
+  {% block content %}
+    {{ data }}
+    {% if filesize %}
+      {{ filesize }}
+    {% endif %}
+  {% endblock %}
+  {% if icon %}
+    </span>
+  {% endif %}
+</a>

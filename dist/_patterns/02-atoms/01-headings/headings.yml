@@ -1,0 +1,17 @@
+headings:
+  1:
+    level: 1
+    font_family: "Font Family"
+    color: "#colors"
+    text: "This is a H1 heading."
+    styles:
+      1:
+        name: "mainheader"
+        font_weight: "Semibold"
+        font_size: "40px"
+        line_height: "55px"
+      2:
+        name: "subheader"
+        font_weight: "Regular"
+        font_size: "30px"
+        line_height: "36px"
