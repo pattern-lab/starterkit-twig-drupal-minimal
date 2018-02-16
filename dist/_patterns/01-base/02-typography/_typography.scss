@@ -6,3 +6,11 @@
 
 @import "~variables--font";
 @import "~fonts";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: $font-family-base;
+}
