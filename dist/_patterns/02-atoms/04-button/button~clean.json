@@ -1,0 +1,11 @@
+{
+  "content": "Clean Button",
+  "modifiers": [
+    "clean"
+  ],
+  "attributes": {
+    "Attribute()": {
+      "href": "#"
+    }
+  }
+}
