@@ -1,0 +1,13 @@
+//
+// @+headings.scss
+// Short description describing the file.
+
+.sg-pattern-title {
+  font-size: 1.8rem;
+  .pl-heading-examples & {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000;
+    margin-bottom: 0.6rem;
+  }
+}
