@@ -1,11 +1,11 @@
 .messages {
-  padding: $spacer * 2;
+  padding: 4rem;
   border: 2px solid;
   border-radius: 3px;
   color: $body-color;
   background-image: none;
   box-shadow: none;
-  margin-bottom: $spacer * 2;
+  margin-bottom: 4rem;
   &--error {
     background-color: $error-color--light;
     border-color: $error-color;
