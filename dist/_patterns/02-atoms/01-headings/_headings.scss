@@ -1,16 +1,19 @@
-/**
- *  _headings.scss
- *
- * Styling defined for headings. Base styling is being defined by bootstrap.
- */
+///
+// _headings.scss
+// Styling defined for headings. Base styling is being defined by bootstrap, and set in 01-base/04-typography.
+///
+
 @import "~variables--heading";
 
-@each $heading, $heading-font, $heading-font-size, $heading-font-size--mob, $heading-font-weight, $heading-color, $heading-margin-bottom in $heading-styles {
-  #{$heading}, .#{$heading} {
-    margin-bottom: $heading-margin-bottom;
-    font-family: $heading-font;
-    font-size: $heading-font-size;
-    color: $heading-color;
-    font-weight: $heading-font-weight;
-  }
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $headings-color;
+}
+
+h2, .h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-bottom: 2rem;
 }
