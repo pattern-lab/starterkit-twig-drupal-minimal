@@ -1,22 +1,8 @@
-{% set type = type|default('status') %}
-
-<div role="contentinfo" class="messages {{ 'messages--' ~ type }}" aria-label="{{ status_headings[type]}}" {{ attributes.addClass(classes)|without('role', 'aria-label')}}>
-  {% if type == 'error' %}
-  <div role="alert">
-    {% endif %}
-    {% if status_headings[type] %}
-      <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
-    {% endif %}
-    {% if data|length > 1 %}
-      <ul class="messages__list">
-        <li class="messages__item">{{ data}}</li>
-      </ul>
-    {% else %}
-      {{ data|first }}
-    {% endif %}
-    {% if type == 'error' %}
-  </div>
-  {% endif %}
-</div>
-{# Remove type specific classes. #}
-  {% set attributes = attributes.removeClass(classes) %}
+{% for item in items %}
+  {% include "_message.twig" with {
+    type: item.type,
+    data: item.data,
+    classes: item.classes
+  }
+  %}
+{% endfor %}
