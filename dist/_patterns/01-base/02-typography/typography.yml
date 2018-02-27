@@ -33,8 +33,8 @@ fonts:
   2:
     name: "heading"
     font: "Lato"
-    implementation: "Heading Font";
-    variable: "$font-family-heading";
+    implementation: "Heading Font"
+    variable: "$font-family-heading"
     string: "Praesent commodo cursus magna."
     styles:
       1:
