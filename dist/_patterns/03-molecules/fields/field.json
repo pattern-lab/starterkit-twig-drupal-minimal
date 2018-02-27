@@ -1,0 +1,29 @@
+
+{
+  "label_hidden": false,
+  "multiple": false,
+  "field_name": "Field item",
+  "label": "Field label",
+  "attributes": {
+    "Attribute()": {}
+  },
+  "label_display": "",
+  "field_type": "string",
+  "classes": [
+    "field"
+  ],
+  "title_attributes": {
+    "Attribute()": {}
+  },
+  "title_classes": [
+    "field__label"
+  ],
+  "items": [
+    {
+      "content": "Field item",
+      "attributes": {
+        "Attribute()": {}
+      }
+    }
+  ]
+}
