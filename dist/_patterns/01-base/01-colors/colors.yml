@@ -1,0 +1,47 @@
+items:
+  - name: $white
+    value: '#fff'
+  - name: $black
+    value: '#000'
+  - name: $gray-light-1
+    value: '#f6f7f7'
+  - name: $gray-light-2
+    value: '#eceef0'
+  - name: $gray-light-3
+    value: '#e4e6e8'
+  - name: $gray-light-4
+    value: '#d7dadc'
+  - name: $gray-light-5
+    value: '#c9cdd1'
+  - name: $gray-silver
+    value: '#bcc1c5'
+  - name: $gray-dark
+    value: '#969a9e'
+  - name: $gray-dark-2
+    value: '#707375'
+  - name: $gray-dark-3
+    value: '#4b4d4f'
+  - name: $gray-dark-3a
+    value: '#383a3b'
+  - name: $gray-dark-4
+    value: '#262727'
+  - name: $primary-color
+    value: '#4A90E2'
+  - name: $secondary-color
+    value: '#0A5995'
+  - name: $error-color
+    value: '#d52b1e'
+  - name: $error-color--light
+    value: '#fae9e8'
+  - name: $warning-color
+    value: '#f48c00'
+  - name: $warning-color--light
+    value: '#fef4e6'
+  - name: $valid-color
+    value: '#5daa1a'
+  - name: $valid-color--light
+    value: '#cbf1ab'
+meta:
+  description: >-
+    To add to these items, use Sass variables that start with <code>$</code> in
+    <code>../../components/_patterns/01-base/01-colors/_color--variables.scss</code>

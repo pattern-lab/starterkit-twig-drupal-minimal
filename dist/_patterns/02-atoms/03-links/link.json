@@ -1,0 +1,10 @@
+{
+  "url": "#",
+  "content": "This is my link text",
+  "modifiers": ["alt", "more-link"],
+  "attributes": {
+    "Attribute()": {
+      "target": "_blank"
+    }
+  }
+}

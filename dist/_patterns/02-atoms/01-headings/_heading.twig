@@ -1,0 +1,21 @@
+{#
+/**
+ * Available variables:
+ * - heading_level - the header level 1-6 (produces h1, h2, etc.)
+ *
+ * - base_class - the base class
+ * - modifiers - array of modifiers to add to the base classname
+ * - blockname - blockname prepended to the base classname
+ *
+ * - title - the content of the heading (typically text)
+ *
+ */
+#}
+{% set heading_base_class = heading_base_class|default('h' ~ heading_level) %}
+{% set base_class = base_class|default(heading_base_class) %}
+{% set title = title|default(heading) %}
+{% set level = level|default(heading_level) %}
+
+<h{{ level }} {{ bem(base_class, (modifiers), blockname) }}>
+  {{ title }}
+</h{{ level }}>

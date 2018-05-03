@@ -1,0 +1,13 @@
+<ul class="sg-swatch-block sg-card sg-display-blocks">
+  {% for item in favicon %}
+    <li class="sg-display-block">
+      <div class="sg-swatch">
+        <img src="{{ '../../images/favicons/' ~ item }}" />
+      </div>
+      <div class="sg-info">
+        <code class="sg-swatch-variable">{{ item }}</code>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
