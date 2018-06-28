@@ -1,0 +1,40 @@
+{#
+/**
+ * Available variables:
+ * - tag - the tag for the block
+ * - base_class - the base class name
+ * - modifiers - array of modifiers to add to the base classname
+ * - blockname - blockname prepended to the base classname
+ * - attributes - array of attribute,value pairs
+ * - data - the content of the button (typically text)
+ */
+#}
+
+{% set base_class = base_class|default('block') %}
+{% set tag = tag|default('div') %}
+{% set title_class = title_class|default('block-title') %}
+
+{% if prefix %}
+  {{ prefix }}
+{% endif %}
+
+<{{ tag }}{{ add_attributes(attributes, bem(base_class, (modifiers), blockname, classes)) }}>
+  {% if wrap %}
+    <div class="wrap">
+  {% endif %}
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ add_attributes(title_attributes, bem(title_class, (title_modifiers))) }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+  {% if wrap %}
+    </div>
+  {% endif %}
+</{{ tag }}>
+
+{% if suffix %}
+  {{ suffix }}
+{% endif %}

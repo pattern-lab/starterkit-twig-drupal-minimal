@@ -7,7 +7,13 @@
           "level": heading.level,
           "title": heading.text,
         } %}
-        <p>{{ heading.font_family }}, {{ heading.font_weight }}, {{ heading.font_size }}, {{ heading.line_height }}, {{ heading.color }}.</p>
+        <ul class="sg-pattern__detail-list">
+          <li class="sg-pattern__info-element" title="Font Family"><label>Font Family</label>{{ heading.font_family }}</li>
+          <li class="sg-pattern__info-element" title="Font Weight"><label>Font Weight</label>{{ heading.font_weight }}</li>
+          <li class="sg-pattern__info-element" title=""><label>Font Size</label>{{ heading.font_size }}</li>
+          <li class="sg-pattern__info-element" title="Line Height"><label>Line Height</label>{{ heading.line_height }}</san>
+          <li class="sg-pattern__info-element" title="Color"><label>Color</label>{{ heading.color }}</li>
+        </ul>
       {% else %}
         {% for style in heading.styles %}
           <h3 class="sg-pattern-title">H{{ heading.level }} {{ style.name }}</h3>
@@ -16,7 +22,13 @@
             "title": heading.text,
             "modifiers": style,
           } %}
-          <p>{% if style.font_family is not empty %}{{ style.font_family }}{% else %}{{ heading.font_family }}{% endif %}, {% if style.font_weight is not empty %}{{ style.font_weight }}{% else %}{{ heading.font_weight }}{% endif %}, {% if style.font_size is not empty %}{{ style.font_size }}{% else %}{{ heading.font_size }}{% endif %}, {% if style.line_height is not empty %}{{ style.line_height }}{% else %}{{ heading.line_height }}{% endif %}, {% if style.color is not empty %}{{ style.color }}{% else %}{{ heading.color }}{% endif %}.</p>
+          <ul class="sg-pattern__detail-list">
+            <li class="sg-pattern__info-element" title="Font Family"><label>Font Family</label>{% if style.font_family is not empty %}{{ style.font_family }}{% else %}{{ heading.font_family }}{% endif %}</li>
+            <li class="sg-pattern__info-element" title="Font Weight"><label>Font Weight</label>{% if style.font_weight is not empty %}{{ style.font_weight }}{% else %}{{ heading.font_weight }}{% endif %}</li>
+            <li class="sg-pattern__info-element" title="Font Size"><label>Font Size</label>{% if style.font_size is not empty %}{{ style.font_size }}{% else %}{{ heading.font_size }}{% endif %}</li>
+            <li class="sg-pattern__info-element" title="Line Height"><label>Line Height</label>{% if style.line_height is not empty %}{{ style.line_height }}{% else %}{{ heading.line_height }}{% endif %}</li>
+            <li class="sg-pattern__info-element" title="Color"><label>Color</label>{% if style.color is not empty %}{{ style.color }}{% else %}{{ heading.color }}{% endif %}</li>
+          </ul>
         {% endfor %}
       {% endif %}
     </div>

@@ -3,22 +3,23 @@
 $white: #fff;
 $black: #000;
 
+$gray: #bcc1c5;
+
 $gray-light-1: #f6f7f7;
 $gray-light-2: #eceef0;
 $gray-light-3: #e4e6e8;
 $gray-light-4: #d7dadc;
 $gray-light-5: #c9cdd1;
 
-$gray-silver: #bcc1c5;
-$gray-dark: #969a9e;
+$gray-dark-1: #969a9e;
 $gray-dark-2: #707375;
 $gray-dark-3: #4b4d4f;
 $gray-dark-3a: #383a3b;
 $gray-dark-4: #262727;
 
 // Brand Colors
-$primary-color: #4A90E2;
-$secondary-color: #0A5995;
+$primary-color: #4A90E2 !default;
+$secondary-color: #0A5995 !default;
 
 // System Colors
 $error-color: #d52b1e; // Error Color
