@@ -1,0 +1,42 @@
+{
+  "img_src": "https://placeimg.com/1200/800/tech",
+  "attributes": {
+    "Attribute()": {
+      "sizes": ""
+    }
+  },
+  "sourceset": [
+    {
+      "src_attributes": {
+        "Attribute()": {
+          "srcset": "https://placeimg.com/1400/800/tech",
+          "media": "(min-width: 992px)"
+        }
+      }
+    },
+    {
+      "src_attributes": {
+        "Attribute()": {
+          "srcset": "https://placeimg.com/992/800/tech",
+          "media": "(min-width: 768px)"
+        }
+      }
+    },
+    {
+      "src_attributes": {
+        "Attribute()": {
+          "srcset": "https://placeimg.com/768/800/tech",
+          "media": "(min-width: 480px)"
+        }
+      }
+    },
+    {
+      "src_attributes": {
+        "Attribute()": {
+          "srcset": "https://placeimg.com/480/800/tech",
+          "media": "(min-width: 0px)"
+        }
+      }
+    }
+  ]
+}

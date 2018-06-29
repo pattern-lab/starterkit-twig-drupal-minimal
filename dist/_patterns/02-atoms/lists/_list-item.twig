@@ -12,11 +12,11 @@
  *   for example: to insert the image and/or link components
  */
 #}
-{% set li_base_class = li_base_class|default('list-item') %}
+{% set base_class = base_class|default('list__item') %}
 
-<li {{ bem(li_base_class, (li_modifiers), li_blockname) }}>
-  {% block list_item_content %}
-    {% if list_item_label %}<strong>{{ list_item_label }}</strong> {% endif %}
-    {{ list_item_content }}
+<li {{ add_attributes(attributes, bem(base_class, (modifiers), blockname)) }}>
+  {% block data %}
+    {% if label %}<strong>{{ label }}</strong> {% endif %}
+    {{ data|raw }}
   {% endblock %}
 </li>

@@ -1,0 +1,107 @@
+{
+  "menu_name": "main-menu",
+  "main_classes": [
+    "menu",
+    "js-mainMenu"
+  ],
+  "menu_toggle": true,
+  "items": [
+    {
+      "title": "Menu Item",
+      "url": "/",
+      "in_active_trail": true
+    },
+    {
+      "title": "Menu Item",
+      "url": "/",
+      "is_expanded": true,
+      "below": [
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/",
+          "is_expanded": true,
+          "below": [
+            {
+              "title": "Submenu Item",
+              "url": "/"
+            },
+            {
+              "title": "Submenu Item",
+              "url": "/"
+            },
+            {
+              "title": "Submenu Item",
+              "url": "/"
+            }
+          ]
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Menu Item",
+      "url": "/",
+      "is_expanded": true,
+      "below": [
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Menu Item",
+      "url": "/",
+      "is_expanded": true,
+      "below": [
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        },
+        {
+          "title": "Submenu Item",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Menu Item",
+      "url": "/"
+    }
+  ]
+}

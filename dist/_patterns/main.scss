@@ -1,3 +1,13 @@
+// Include fonts (variables are being loaded in within fonts).
+@import "01-base/~variables";
+@import "02-atoms/~variables";
+
+// In case of bootstrap use uncomment those here.
+//@import "../../../node_modules/bootstrap/scss/functions";
+//@import "../../../node_modules/bootstrap/scss/variables";
+//@import "../../../node_modules/bootstrap/scss/mixins";
+//@import "../../../node_modules/bootstrap/scss/print";
+
 @import "vendors/vendors.scss";
 @import "01-base/**/*.scss";
 @import "02-atoms/**/*.scss";

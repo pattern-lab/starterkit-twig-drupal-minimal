@@ -1,7 +1,6 @@
 // Include fonts (variables are being loaded in within fonts).
-@import "../../_patterns/01-base/04-typography/~fonts";
-@import "../../_patterns/01-base/01-colors/~color--variables";
-@import "../../_patterns/02-atoms/03-links/link/~link--variables";
+@import "../../_patterns/01-base/~variables";
+@import "../../_patterns/02-atoms/~variables";
 
 // In case of bootstrap use uncomment those here.
 //@import "../../../node_modules/bootstrap/scss/functions";

@@ -1,6 +1,7 @@
 {
   "data": "This is my link text",
   "modifiers": "",
+  "icon": "icon-linkedin",
   "attributes": {
     "Attribute()": {
       "href": "#",

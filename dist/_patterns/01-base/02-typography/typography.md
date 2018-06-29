@@ -1,6 +1,4 @@
----
-title: Typography
----
-**Body font:** Open Sans
+# Typography
 
-**Heading Font:** Open Sans
+## Base Font Family
+Font-family: ***

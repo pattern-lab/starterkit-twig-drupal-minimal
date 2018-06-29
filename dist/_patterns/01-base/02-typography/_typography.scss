@@ -4,5 +4,8 @@
  * Import fonts and set basic html size.
  */
 
-@import "~variables--font";
+html {
+  font-size: 10px;
+}
+
 @import "~fonts";

@@ -1,8 +1,7 @@
-/**
- *  ~fonts.scss
- *  Import fonts to be available globaly.
- *
- *  Each font gets its own declaration file inside the fonts folder.
- */
+/*
+* @file _font.scss
+*
+* Define variables regarding font files (eg: font-family, path)
+*/
 
-
+$typography-font-path: "../fonts";
