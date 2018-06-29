@@ -1,0 +1,17 @@
+//
+// @+sg-swatch.scss
+// Short description describing the file.
+ 
+.sg-swatch-block {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  li {
+    padding: 2rem;
+  }
+  figcaption {
+    margin-top:  0.8rem;
+  }
+}

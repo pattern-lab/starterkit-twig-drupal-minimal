@@ -1,0 +1,12 @@
+{
+  "description": {
+    "attributes": {
+      "Attribute()": {
+        "class": [
+          "form-item__description"
+        ]
+      }
+    },
+    "content": "This is the description of a field of form item."
+  }
+}

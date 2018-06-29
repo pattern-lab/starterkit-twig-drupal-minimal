@@ -1,0 +1,36 @@
+@mixin checkbox-radio-styling() {
+  display: block;
+  position: relative;
+  padding: 0 0 0 2.5rem;
+  cursor: pointer;
+  margin: 0;
+  float: none;
+  width: 100%;
+  &:before {
+    background-color: $white;
+    display: block;
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1px;
+    border: 1px solid $black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.8rem;
+    transition: border-color $transition-timing-function $transition-delay, background-color $transition-timing-function $transition-delay;
+  }
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    opacity: 0;
+    margin-top: -0.6rem;
+    top: 50%;
+    left: 0.15rem;
+    transition: all $transition-delay;
+    transform: scale(0);
+    font-size: 1.25rem;
+    color: $white;
+  }
+}

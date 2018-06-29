@@ -1,0 +1,9 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "type": "text",
+      "placeholder": "Enter your full name..",
+      "class": ["form-item__text"]
+    }
+  }
+}

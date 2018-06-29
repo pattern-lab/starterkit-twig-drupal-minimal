@@ -1,0 +1,10 @@
+{% set icon_base_class = icon_base_class|default('icon') %}
+{% set icon_type = icon_type|default('') %}
+{% set value = attributes.value %}
+
+<button {{ attributes }} >
+  {{ attributes.value }}
+  {% if icon_type %}
+    <i class="{{ icon_base_class }} {{ icon_base_class }}-{{ icon_type }}"></i>
+  {% endif %}
+</button>

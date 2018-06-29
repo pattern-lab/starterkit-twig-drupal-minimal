@@ -1,0 +1,9 @@
+.form-item {
+  &__text, &__select {
+    appearance: none;
+    border-radius: 0;
+    border: 1px solid $black;
+    padding: 1.2rem 1.8rem;
+    width: 100%;
+  }
+}
