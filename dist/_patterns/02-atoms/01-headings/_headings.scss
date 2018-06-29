@@ -3,14 +3,5 @@
  *
  * Styling defined for headings. Base styling is being defined by bootstrap.
  */
-@import "~variables--heading";
 
-@each $heading, $heading-font, $heading-font-size, $heading-font-size--mob, $heading-font-weight, $heading-color, $heading-margin-bottom in $heading-styles {
-  #{$heading}, .#{$heading} {
-    margin-bottom: $heading-margin-bottom;
-    font-family: $heading-font;
-    font-size: $heading-font-size;
-    color: $heading-color;
-    font-weight: $heading-font-weight;
-  }
-}
+@import "~variables--heading";

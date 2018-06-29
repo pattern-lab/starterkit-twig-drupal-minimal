@@ -1,6 +1,8 @@
-//
-// @~variables--heading.scss
-// Short description describing the file.
+/*
+* @file ~variables--heading.scss
+*
+* Configure all heading styles
+*/
 
 $headings-line-height: 1.4;
 
@@ -27,8 +29,3 @@ $h5-font-size-mob: 1.6rem;
 // H6.
 $h6-font-size: 1.6rem;
 $h6-font-size-mob: 1.6rem;
-
-// Variables list for headings.
-$heading-styles:
-    // name, font-family, font-size, mobile font-size, color, margin-bottom.
-    (h1, $headings-font-family, $h1-font-size, $h1-font-size-mob, $font-weight--semi-bold, $brand-color--primary, 2rem);
