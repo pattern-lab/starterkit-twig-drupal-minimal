@@ -1,0 +1,48 @@
+{
+  "buttons": [
+    {
+      "content": "Default Button",
+      "modifiers": ["with-icon"],
+      "icon": "arrow-right",
+      "icon_position": "right",
+      "attributes": {
+        "Attribute()": {
+          "href": "#"
+        }
+      }
+    },
+    {
+      "content": "Default Button",
+      "modifiers": ["with-icon"],
+      "icon": "arrow-left",
+      "icon_position": "",
+      "attributes": {
+        "Attribute()": {
+          "href": "#"
+        }
+      }
+    },
+    {
+      "content": "Default Button",
+      "modifiers": ["with-icon","clean"],
+      "icon": "arrow-right",
+      "icon_position": "right",
+      "attributes": {
+        "Attribute()": {
+          "href": "#"
+        }
+      }
+    },
+    {
+      "content": "Default Button",
+      "modifiers": ["with-icon","clean"],
+      "icon": "arrow-left",
+      "icon_position": "",
+      "attributes": {
+        "Attribute()": {
+          "href": "#"
+        }
+      }
+    }
+  ]
+}

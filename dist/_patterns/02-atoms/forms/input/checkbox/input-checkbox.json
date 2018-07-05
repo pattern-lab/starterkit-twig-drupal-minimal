@@ -1,0 +1,34 @@
+{
+  "wrapper": {
+    "attributes": {
+      "Attribute()": {
+        "class": [
+          "form-item__radio-checkbox",
+          "form-item__checkbox"
+        ]
+      }
+    }
+  },
+  "input": {
+    "attributes": {
+      "Attribute()": {
+        "type": "checkbox",
+        "id": "checkbox",
+        "class": [
+          "form-item__checkbox"
+        ]
+      }
+    }
+  },
+  "label": {
+    "title": "Checkbox example",
+    "attributes": {
+      "Attribute()": {
+        "for": "checkbox",
+        "class": [
+          "option"
+        ]
+      }
+    }
+  }
+}

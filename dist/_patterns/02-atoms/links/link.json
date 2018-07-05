@@ -1,0 +1,10 @@
+{
+  "data": "This is my link text",
+  "modifiers": "",
+  "attributes": {
+    "Attribute()": {
+      "href": "#",
+      "target": "_blank"
+    }
+  }
+}

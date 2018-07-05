@@ -1,0 +1,34 @@
+@import "~mixin-radio-checkboxes";
+
+.form-item__radio-checkbox {
+  position: relative;
+  label {
+    @include checkbox-radio-styling();
+  }
+  input {
+    opacity: 0;
+    position: absolute;
+    // Active styling
+    &:checked + label {
+      &:before {
+        border-color: $secondary-color;
+      }
+      &:after {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    // Focus styling
+    &:focus + label {
+      &:before {
+        background-color: $black;
+      }
+    }
+    &[disabled="disabled"] {
+      + .option:before {
+        // Disabled
+        @include disabled();
+      }
+    }
+  }
+}

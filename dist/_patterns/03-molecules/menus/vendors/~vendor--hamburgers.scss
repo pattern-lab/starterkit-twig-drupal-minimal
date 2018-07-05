@@ -1,0 +1,45 @@
+/**
+ *  @_vendor--hamburger.scss
+ *  Import CSS Hamburger scss files.
+ *
+ *  This file specifies which CSS Hamburger SCSS files should be included. Please uncomment the styles you would like to use.
+ *  The CSS Hamburger files itself will be installed with Yarn and moved with Gulp Libraries
+ */
+
+// Base Hamburger (We need this)
+// ==================================================
+@import "../../../../../node_modules/hamburgers/_sass/hamburgers/base";
+
+// Hamburger types
+// ==================================================
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dx";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dx-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dy";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dy-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dxy";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/3dxy-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrow";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrow-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrowalt";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrowalt-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrowturn";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/arrowturn-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/boring";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/collapse";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/collapse-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/elastic";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/elastic-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/emphatic";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/emphatic-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/minus";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/slider";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/slider-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/spin";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/spin-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/spring";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/spring-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/stand";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/stand-r";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/squeeze";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/vortex";
+//@import "../../../../../node_modules/hamburgers/_sass/hamburgers/types/vortex-r";

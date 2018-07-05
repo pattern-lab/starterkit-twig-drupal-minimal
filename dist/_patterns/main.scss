@@ -1,0 +1,16 @@
+// Include fonts (variables are being loaded in within fonts).
+@import "01-base/~variables";
+@import "02-atoms/~variables";
+
+// In case of bootstrap use uncomment those here.
+//@import "../../../node_modules/bootstrap/scss/functions";
+//@import "../../../node_modules/bootstrap/scss/variables";
+//@import "../../../node_modules/bootstrap/scss/mixins";
+//@import "../../../node_modules/bootstrap/scss/print";
+
+@import "01-base/**/*.scss";
+@import "02-atoms/**/*.scss";
+@import "03-molecules/**/*.scss";
+@import "04-organisms/**/*.scss";
+@import "05-templates/**/*.scss";
+@import "06-pages/**/*.scss";

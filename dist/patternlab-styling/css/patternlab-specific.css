@@ -1,0 +1,76 @@
+/*
+* @file ~font.scss
+*
+* Define variables regarding font files (eg: font-family, path)
+*/
+/*
+* @file _variables--typography.scss
+*
+* Define variables regarding typography (eg: font-weights, sizes, text colors)
+*/
+.sg-swatch-variable {
+  color: #bcc1c5; }
+
+.sg-swatch-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none; }
+  .sg-swatch-block li {
+    padding: 2rem; }
+  .sg-swatch-block figcaption {
+    margin-top: 0.8rem; }
+
+.sg-icons i {
+  display: block;
+  padding: 0.5rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eceef0;
+  font-size: 5rem; }
+  .sg-icons i:before {
+    margin: 0 auto; }
+
+.pl-wrapper-block {
+  width: 100%;
+  padding: 4rem;
+  margin: 2rem 0;
+  background: #ddd;
+  text-align: center; }
+
+.block-example {
+  padding: 1.5rem;
+  background: #eceef0;
+  border: 2px dashed #bcc1c5; }
+
+.sg-pattern-title {
+  font-size: 1.8rem; }
+  .pl-heading-examples .sg-pattern-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000;
+    margin-bottom: 0.6rem; }
+
+.sg-pattern__detail-list {
+  padding: 0;
+  list-style: none; }
+
+.sg-pattern__info-element {
+  list-style: none; }
+  .sg-pattern__info-element label {
+    margin-right: 1.5rem;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #999;
+    text-transform: lowercase; }
+    .sg-pattern__info-element label:after {
+      content: ':'; }
+
+/*# sourceMappingURL=patternlab-specific.css.map */

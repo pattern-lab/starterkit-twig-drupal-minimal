@@ -1,0 +1,11 @@
+//
+// @_placeholder.scss
+// Mixins for styling the placeholders and supporting them in different browsers
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}

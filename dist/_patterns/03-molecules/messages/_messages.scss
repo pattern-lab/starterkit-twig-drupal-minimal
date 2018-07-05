@@ -1,0 +1,21 @@
+.messages {
+  padding: $spacer * 2;
+  border: 2px solid;
+  border-radius: 3px;
+  color: $body-color;
+  background-image: none;
+  box-shadow: none;
+  margin-bottom: $spacer * 2;
+  &--error {
+    background-color: $error-color--light;
+    border-color: $error-color;
+  }
+  &--warning {
+    background-color: $warning-color--light;
+    border-color: $warning-color;
+  }
+  &--status {
+    background-color: $valid-color--light;
+    border-color: $valid-color;
+  }
+}

@@ -1,0 +1,12 @@
+// Create a mixin for paragraph styles that can be implemented
+// in components with other classnames.
+
+// Bold styling.
+b, strong {
+  font-weight: 700;
+}
+
+::selection {
+  background: $primary-color;
+  color: $white;
+}

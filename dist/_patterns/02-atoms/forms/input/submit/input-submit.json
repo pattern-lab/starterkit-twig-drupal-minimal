@@ -1,0 +1,11 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "type": "submit",
+      "placeholder": "Search",
+      "value": "Search",
+      "class": ["button", "button--primary", "button--icon"]
+    }
+  },
+  "icon_type": "search"
+}

@@ -1,0 +1,26 @@
+{#
+/**
+ * Available variables:
+ * - list_base_class - the base classname
+ * - list_modifiers - array of modifiers to add to the base classname
+ * - list_blockname - blockname prepended to the base classname
+ *
+ * - listItems - TBD
+ */
+#}
+
+{% set attributes = attributes|default(list_attributes) %}
+{% set list_element = list_element|default('ul') %}
+{% set list_base_class = list_base_class|default(list_element ~ '-list') %}
+
+<{{ list_element }} {{ add_attributes(attributes, bem(list_base_class, (list_modifiers), list_blockname, classes)) }}>
+  {% for list_item in list_items %}
+    {% include "@atoms/lists/_list-item.twig" with {
+      "base_class": list_item.base_class,
+      "modifiers": list_item.modifiers,
+      "blockname": list_item.blockname,
+      "data": list_item.data,
+      "label": list_item.label
+    } %}
+  {% endfor %}
+</{{ list_element }}>

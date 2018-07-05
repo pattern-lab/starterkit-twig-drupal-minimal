@@ -1,0 +1,19 @@
+//
+// @_svg-icons.scss
+// Styling for svg icons.
+
+.svg-icon {
+  height: auto;
+  &--size {
+    &-20 {
+      width: 2rem;
+    }
+    &-25 {
+      width: 2.5rem;
+    }
+    &-30 {
+      width: 3rem;
+    }
+  }
+}
+ 

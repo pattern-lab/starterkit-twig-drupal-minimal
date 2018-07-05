@@ -1,0 +1,15 @@
+.form-item__checkbox {
+  input {
+    &:checked + label {
+      &:before {
+        background-color: $secondary-color;
+      }
+    }
+  }
+  label {
+    &:after {
+      @include icon-font($icon-family-name);
+      content: $icon-checkmark;
+    }
+  }
+}

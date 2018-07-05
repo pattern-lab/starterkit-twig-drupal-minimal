@@ -1,0 +1,37 @@
+.custom-select {
+  background-color: $white;
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  &__trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    height: 100%;
+    width: 5rem;
+    &-icon {
+      color: $black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 1.6rem;
+      margin-left: -8px;
+      margin-top: -8px;
+    }
+  }
+  .form-item__select {
+    background: transparent;
+    padding-right: 5rem;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    // IE11 fix to hide arrow.
+    &::-ms-expand {
+      display: none;
+    }
+  }
+  &--wide {
+    width: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+// Load Icon Library
+$icomoon-font-path: "../icons/ICONFONT/fonts"; // This is needed to make sure the .css file links to the right file.
+$icon-family-name: "iconfamilyname"; // Icon name needed for mixin
+
+//Uncomment and edit the line below when using icons
+//@import "../../../icons/ICONFONT/style.scss";

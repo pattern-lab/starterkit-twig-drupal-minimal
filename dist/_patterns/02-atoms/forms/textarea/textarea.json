@@ -1,0 +1,11 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "placeholder": "This is a textarea..",
+      "class": [
+        "form-item__text",
+        "form-item__text-area"
+      ]
+    }
+  }
+}
