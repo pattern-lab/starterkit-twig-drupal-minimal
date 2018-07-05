@@ -79,6 +79,7 @@
     {% endif %}
 
 		<li {{ add_attributes(item.attributes, bem(item_base_class, (item_modifiers), item_blockname, item_classes)) }}>
+      {% set link_attributes = create_attribute() %}
       {{ link(item_title, item.url, add_attributes(link_attributes, bem(link_base_class, (link_modifiers), link_blockname, link_classes))) }}
 			{% if item.below and menu_level != '2' %}
 				<span class="{{ menu_name }}__expand-button {{ menu_name }}__expand-button--level-{{ menu_level }} js-menuItemExpand" role="button"><i class="icon-arrow-down2"></i></span>

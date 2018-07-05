@@ -1,5 +1,5 @@
 {
-  "img_src": "https://placeimg.com/1200/800/tech",
+  "img_src": "https://source.unsplash.com/1200x800/?nature",
   "attributes": {
     "Attribute()": {
       "sizes": ""
@@ -9,7 +9,7 @@
     {
       "src_attributes": {
         "Attribute()": {
-          "srcset": "https://placeimg.com/1400/800/tech",
+          "srcset": "https://source.unsplash.com/1400x800/?nature",
           "media": "(min-width: 992px)"
         }
       }
@@ -17,7 +17,7 @@
     {
       "src_attributes": {
         "Attribute()": {
-          "srcset": "https://placeimg.com/992/800/tech",
+          "srcset": "https://source.unsplash.com/992x800/?nature",
           "media": "(min-width: 768px)"
         }
       }
@@ -25,7 +25,7 @@
     {
       "src_attributes": {
         "Attribute()": {
-          "srcset": "https://placeimg.com/768/800/tech",
+          "srcset": "https://source.unsplash.com/992x800/?nature",
           "media": "(min-width: 480px)"
         }
       }
@@ -33,7 +33,7 @@
     {
       "src_attributes": {
         "Attribute()": {
-          "srcset": "https://placeimg.com/480/800/tech",
+          "srcset": "https://source.unsplash.com/480x800/?nature",
           "media": "(min-width: 0px)"
         }
       }
